@@ -89,7 +89,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved. <br/> Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Runlet. <br/> All rights reserved.`,
     },
   },
   presets: [
