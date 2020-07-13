@@ -1,6 +1,7 @@
 {
-  "name": "docusaurus",
-  "version": "0.0.0",
+  "name": "runlet-website",
+  "description": "Runlet Website",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
@@ -10,15 +11,19 @@
     "commit": "git-cz",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts}\"",
     "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,ts}\"",
-    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
+    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.58",
     "@docusaurus/preset-classic": "^2.0.0-alpha.58",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.32",
     "clsx": "^1.1.1",
+    "platform": "^1.3.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.10.0"
   },
   "browserslist": {
     "production": [
@@ -33,6 +38,12 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
     "cz-conventional-changelog": "^3.2.0",
     "prettier": "2.0.5"
   },

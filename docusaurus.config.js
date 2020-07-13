@@ -101,12 +101,12 @@ module.exports = {
           homePageId: 'introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/docs/',
+          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/blog/',
+          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
