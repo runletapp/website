@@ -18,7 +18,7 @@ function Home() {
       <Hero />
 
       <main>
-        <Features />
+        {/* <Features /> */}
       </main>
     </Layout>
   );

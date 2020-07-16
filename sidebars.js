@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Runlet',
       collapsed: false,
-      items: ['introduction'],
+      items: ['getting-started'],
     },
     {
       type: 'category',

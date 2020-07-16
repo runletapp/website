@@ -5,34 +5,19 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Device Syncing</>,
     imageUrl: 'img/pages/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    description: <>View and execute jobs from any authorized devices.</>,
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Activity Logs</>,
     imageUrl: 'img/pages/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    description: <>Timestamped and uniquely identified output logs.</>,
   },
   {
-    title: <>Powered by React</>,
+    title: <>Themes</>,
     imageUrl: 'img/pages/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    description: <>A diverse set of dark themes available for choosing.</>,
   },
 ];
 

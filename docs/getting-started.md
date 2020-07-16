@@ -1,7 +1,7 @@
 ---
-id: introduction
-title: Introduction
-sidebar_label: Introduction
+id: getting-started
+title: Getting Started
+sidebar_label: Getting Started
 ---
 
 Runlet is a cloud-based job manager that offers device synchronization and reliable message delivery in a network of connected devices even after connectivity issues.
