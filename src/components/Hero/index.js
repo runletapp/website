@@ -4,7 +4,8 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useThemeContext from '@theme/hooks/useThemeContext';
-import styles from './styles.module.css';
+
+import styles from './styles.module.scss';
 
 function Hero() {
   const context = useDocusaurusContext();
@@ -14,8 +15,13 @@ function Hero() {
   const themePath = isDarkTheme ? 'dark' : 'light';
 
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header id="hero" className={clsx('hero', styles.banner)}>
       <div className="container">
+        <img
+          src={useBaseUrl(`img/logo.svg`)}
+          alt="Screenshot"
+          className={styles.logo}
+        />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className={clsx('hero__subtitle', styles.subtitle)}>
           {siteConfig.tagline}
@@ -23,21 +29,19 @@ function Hero() {
 
         <div className={styles.buttons}>
           <Link
-            className={clsx(
-              'button button--primary button--lg',
-              styles.getStarted,
-            )}
-            to={useBaseUrl('docs/')}>
-            Get Started
+            className={clsx('button button--primary button--lg', styles.button)}
+            // href="https://github.com/runletapp/runlet/releases"
+            to="#download">
+            Download
           </Link>
         </div>
-
-        <img
-          src={useBaseUrl(`img/pages/${themePath}/homepage-screenshot.png`)}
-          alt="Screenshot"
-          className={clsx('shadow-md', styles.image)}
-        />
       </div>
+
+      <img
+        src={useBaseUrl(`img/pages/${themePath}/homepage-screenshot.png`)}
+        alt="Screenshot"
+        className={clsx('shadow-md', styles.image)}
+      />
     </header>
   );
 }

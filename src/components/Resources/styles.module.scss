@@ -1,0 +1,25 @@
+.resources {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.resource {
+  display: flex !important;
+  flex-direction: column;
+
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}
+
+.card {
+  flex-grow: 1;
+  justify-content: center;
+  border: 2px solid transparent;
+
+  &:hover {
+    border-color: var(--ifm-color-primary-light);
+  }
+}

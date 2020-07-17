@@ -1,10 +1,8 @@
 module.exports = {
   docs: [
     {
-      type: 'category',
-      label: 'Runlet',
-      collapsed: false,
-      items: ['getting-started'],
+      type: 'doc',
+      id: 'introduction',
     },
     {
       type: 'category',

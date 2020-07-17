@@ -1,0 +1,38 @@
+.headline {
+  margin-bottom: 2rem;
+}
+
+.category {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary-light);
+}
+
+.title {
+  max-width: 600px;
+  font-size: 3rem;
+  line-height: initial;
+  word-spacing: -0.25rem;
+}
+
+.titleGradient {
+  @extend .title;
+
+  background: -webkit-linear-gradient(
+    var(--ifm-color-primary-light),
+    var(--ifm-color-primary-dark)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  html[data-theme='dark'] & {
+    background: -webkit-linear-gradient(
+      var(--ifm-color-primary-lightest),
+      var(--ifm-color-primary)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

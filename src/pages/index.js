@@ -1,24 +1,27 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
 
+import FAQ from '../components/FAQ';
 import Features from '../components/Features';
 import Hero from '../components/Hero';
+import Resources from '../components/Resources';
+import Download from '../components/Download';
+
+import styles from './styles.module.scss';
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
 
   return (
-    <Layout title="Homepage" description="Homepage | Runlet">
+    <Layout title="Home" description="Home | Runlet">
       <Hero />
 
       <main>
-        {/* <Features /> */}
+        <Features />
+        <Download />
+        <Resources />
+        <FAQ />
       </main>
     </Layout>
   );

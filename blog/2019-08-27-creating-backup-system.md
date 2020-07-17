@@ -2,7 +2,7 @@
 id: creating-backup-system
 title: Creating a backup system with Runlet
 author: Gustavo Sampaio
-author_title: Co-creator of Runlet
+author_title: Core Maintainer
 author_url: https://github.com/GustavoKatel
 author_image_url: https://avatars0.githubusercontent.com/u/1891977?s=400&u=e33fb29ed6517d25974098a828720bd860b5ce5c&v=4
 tags: [Runlet, Tutorial, Raspberry Pi]

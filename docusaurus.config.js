@@ -16,8 +16,9 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    // gtag: {
-    //   trackingID: 'UA-',
+    // googleAnalytics: {
+    //   trackingID: 'UA-141789564-1',
+    //   anonymizeIP: true, // Should IPs be anonymized?
     // },
     // algolia: {
     //   apiKey: 'be3d58e5001e0becb68cd83f0914980f',
@@ -33,11 +34,16 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'blog', label: 'Blog', position: 'right'},
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
-          label: 'Documentation',
+          label: 'Docs',
+          position: 'left',
+        },
+        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/runletapp/runlet/releases',
+          label: 'Download',
           position: 'right',
         },
         {
@@ -49,7 +55,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
         {
           title: 'Runlet',
@@ -76,7 +82,7 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'Documentation',
+              label: 'Docs',
               to: 'docs',
             },
             {
@@ -86,7 +92,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
               label: 'GitHub',
@@ -99,32 +105,26 @@ module.exports = {
           ],
         },
       ],
-      // logo: {
-      //   alt: 'Runlet Logo',
-      //   src: 'img/logo.svg',
-      //   href: 'https://runlet.app',
-      // },
-      copyright: `Copyright © ${new Date().getFullYear()} Runlet. <br/> All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
   },
+  plugins: ['docusaurus-plugin-sass'],
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'getting-started',
+          homePageId: 'introduction',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
+          // editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
+          // editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
