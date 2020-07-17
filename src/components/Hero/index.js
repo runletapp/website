@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -28,12 +29,11 @@ function Hero() {
         </p>
 
         <div className={styles.buttons}>
-          <Link
+          <AnchorLink
             className={clsx('button button--primary button--lg', styles.button)}
-            // href="https://github.com/runletapp/runlet/releases"
-            to="#download">
+            href="#download">
             Download
-          </Link>
+          </AnchorLink>
         </div>
       </div>
 

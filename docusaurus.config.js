@@ -17,7 +17,7 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     // googleAnalytics: {
-    //   trackingID: 'UA-141789564-1',
+    //   trackingID: 'UA-132764481-1',
     //   anonymizeIP: true, // Should IPs be anonymized?
     // },
     // algolia: {
@@ -41,11 +41,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/runletapp/runlet/releases',
-          label: 'Download',
-          position: 'right',
-        },
         {
           href: 'https://github.com/runletapp/runlet',
           position: 'right',

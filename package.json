@@ -21,10 +21,13 @@
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.32",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.9",
+    "filesize": "^6.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.8.4",
-    "react-icons": "^3.10.0"
+    "react-icons": "^3.10.0",
+    "swr": "^0.2.3"
   },
   "browserslist": {
     "production": [

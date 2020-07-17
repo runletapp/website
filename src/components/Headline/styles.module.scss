@@ -3,11 +3,12 @@
 }
 
 .category {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   margin-bottom: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-lightest);
 }
 
 .title {

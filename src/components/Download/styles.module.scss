@@ -2,3 +2,48 @@
   width: 100%;
   padding: 4rem 0;
 }
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.assets {
+  width: 100%;
+  border: 1px solid var(--ifm-color-primary-light);
+  border-radius: 6px;
+
+  .asset,
+  .info {
+    padding: 0.5rem 1rem;
+  }
+
+  .asset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--ifm-color-primary-light);
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    a {
+      color: unset;
+    }
+
+    svg,
+    .size {
+      color: var(--ifm-color-primary-light);
+    }
+  }
+}
+
+svg {
+  margin-right: 0.5rem;
+}

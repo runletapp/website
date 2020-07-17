@@ -68,20 +68,20 @@ function Resources() {
             <div className="row">
               {data[0] && data[1] && (
                 <div className={clsx('col', styles.resource)}>
-                  <Resource key={0} {...data[0]} />
-                  <Resource key={1} {...data[1]} />
+                  <Resource {...data[0]} />
+                  <Resource {...data[1]} />
                 </div>
               )}
 
               {data[2] && (
                 <div className={clsx('col', styles.resource)}>
-                  <Resource key={2} {...data[2]} />
+                  <Resource {...data[2]} />
                 </div>
               )}
 
               {data[3] && (
                 <div className={clsx('col', styles.resource)}>
-                  <Resource key={3} {...data[3]} />
+                  <Resource {...data[3]} />
                 </div>
               )}
             </div>
