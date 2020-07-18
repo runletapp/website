@@ -51,14 +51,6 @@ html[data-theme='dark'] {
   overflow: hidden;
 }
 
-section {
-  padding: 4rem 0;
-
-  @media screen and (max-width: 996px) {
-    padding: 2rem 0;
-  }
-}
-
 .header-github-link {
   &:hover {
     opacity: 0.6;
@@ -104,7 +96,7 @@ section {
   &__links {
     @media screen and (min-width: 997px) {
       max-width: 768px;
-      margin: 0 auto 4rem;
+      margin: 0 auto 4rem auto;
     }
   }
 

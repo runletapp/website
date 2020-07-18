@@ -68,6 +68,7 @@ function Features() {
             <Headline
               category="Features"
               title="Manage your device fleet with ease"
+              offset={1}
             />
 
             <div className="row">

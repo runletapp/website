@@ -47,6 +47,7 @@ function Download() {
         <Headline
           category="Download"
           title="ARM, Linux, MacOS, Windows, you name it!"
+          offset={1}
         />
 
         <div className="row">

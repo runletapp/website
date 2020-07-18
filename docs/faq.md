@@ -10,7 +10,7 @@ Runlet is a cloud-based job manager that offers device synchronization and relia
 
 ### 2. Why use Runlet?
 
-Runlet provides an easy to use interface to manage jobs across a fleet of connected devices, trigger remote executions, and view logs from remotely executed jobs. You can also quickly get a new device started since all configuration files and logs are stored in the cloud and synced after sign in.
+Runlet provides an easy to use interface to manage jobs across a fleet of connected devices, trigger remote executions, and view logs from remotely executed jobs. You can also quickly get a new device started since all configuration files and logs are stored in the cloud.
 
 ### 3. What are the supported platforms?
 

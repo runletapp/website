@@ -21,8 +21,7 @@ const data = [
         Runlet provides an easy to use interface to manage jobs across a fleet
         of connected devices, trigger remote executions, and view logs from
         remotely executed jobs. You can also quickly get a new device started
-        since all configuration files and logs are stored in the cloud and
-        synced after sign in.
+        since all configuration files and logs are stored in the cloud.
       </>
     ),
   },
@@ -61,15 +60,15 @@ function Question({title, description}) {
 
 function FAQ() {
   return (
-    <section id="faq">
+    <section id="faq" className={styles.faq}>
       <div className="container">
         <div className="row">
-          <div className="col col--5">
+          <div className="col col--5 col--offset-1">
             {data[0] && <Question {...data[0]} />}
             {data[1] && <Question {...data[1]} />}
           </div>
 
-          <div className="col col--5 col--offset-1">
+          <div className="col col--5">
             {data[2] && <Question {...data[2]} />}
             {data[3] && <Question {...data[3]} />}
           </div>

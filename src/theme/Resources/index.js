@@ -63,6 +63,7 @@ function Resources() {
             <Headline
               category="Resources"
               title="Browse our resources to get started with Runlet"
+              offset={1}
             />
 
             <div className="row">

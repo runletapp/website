@@ -17,7 +17,7 @@ function Home() {
     <Layout title="Home" description="Home | Runlet">
       <Hero />
 
-      <main>
+      <main className={styles.main}>
         <Features />
         <Download />
         <Resources />
