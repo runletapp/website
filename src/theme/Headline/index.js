@@ -8,7 +8,7 @@ function Headline(props) {
 
   return (
     <div className="row">
-      <div className={`col col col--offset-${offset}`}>
+      <div className={`col col--${12 - offset} col--offset-${offset}`}>
         <div className={styles.headline}>
           {category && <span className={styles.category}>{category}</span>}
           {title && <h2 className={styles.title}>{title}</h2>}

@@ -1,8 +1,14 @@
 ---
-id: faq
-title: 'FAQ'
-sidebar_label: 'FAQ'
+id: getting-started
+title: Getting Started
+sidebar_label: Getting Started
 ---
+
+:::note
+
+You can help improving the documentation by making pull requests for anything from typos to new content suggestion at https://github.com/runletapp/runlet
+
+:::
 
 ### 1. What is Runlet?
 
@@ -22,4 +28,4 @@ We only collect basic user information during registration (such as your name, e
 
 ### 5. Is Runlet secure?
 
-Yes, all logs are encrypted by the host machine before submitted to our servers, and decrypted once received by connected devices.
+Yes, all logs are encrypted by the host machine before submitted to our servers, and decrypted once received by connected devices. This documentation describes how to use Runlet via CLI and configure jobs using the YAML language.

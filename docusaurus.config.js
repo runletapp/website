@@ -56,10 +56,6 @@ module.exports = {
           title: 'Runlet',
           items: [
             {
-              label: 'FAQ',
-              to: 'docs/faq',
-            },
-            {
               label: 'Terms of Service',
               to: 'docs/policies/terms',
             },
@@ -110,7 +106,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'introduction',
+          homePageId: 'getting-started',
           sidebarPath: require.resolve('./sidebars.js'),
           // editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
         },

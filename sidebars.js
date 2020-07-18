@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     {
       type: 'doc',
-      id: 'introduction',
+      id: 'getting-started',
     },
     {
       type: 'category',
@@ -21,6 +21,12 @@ module.exports = {
         'job/scheduling',
         'job/settings',
       ],
+    },
+    {
+      type: 'category',
+      label: 'Policies',
+      collapsed: false,
+      items: ['policies/terms', 'policies/privacy'],
     },
   ],
 };
