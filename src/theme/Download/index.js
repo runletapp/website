@@ -4,7 +4,7 @@ import filesize from 'filesize';
 import useSWR from 'swr';
 import Link from '@docusaurus/Link';
 import {FiGithub, FiPackage} from 'react-icons/fi';
-import {DiApple, DiDebian, DiLinux, DiWindows} from 'react-icons/di';
+import {DiApple, DiLinux, DiWindows} from 'react-icons/di';
 
 import Headline from '@theme/Headline';
 import styles from './styles.module.scss';
@@ -32,7 +32,7 @@ function icon(type) {
     case 'application/x-msdos-program':
       return <DiWindows size={size} />;
     case 'application/x-debian-package':
-      return <DiDebian size={size} />;
+      return <DiLinux size={size} />;
     default:
       return <FiPackage size={size} />;
   }
@@ -75,7 +75,6 @@ function Download() {
                 <DiApple size={size} />
                 <DiWindows size={size} />
                 <DiLinux size={size} />
-                <DiDebian size={size} />
               </div>
             </div>
           </div>
