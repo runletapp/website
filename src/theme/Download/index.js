@@ -4,7 +4,7 @@ import filesize from 'filesize';
 import useSWR from 'swr';
 import Link from '@docusaurus/Link';
 import {FiGithub, FiPackage} from 'react-icons/fi';
-import {DiApple, DiDebian, DiWindows} from 'react-icons/di';
+import {DiApple, DiDebian, DiLinux, DiWindows} from 'react-icons/di';
 
 import Headline from '@theme/Headline';
 import styles from './styles.module.scss';
@@ -40,6 +40,7 @@ function icon(type) {
 
 function Download() {
   const {data} = useLatestRelease();
+  const size = 36;
 
   return (
     <section id="download">
@@ -65,8 +66,18 @@ function Download() {
                 styles.button,
               )}
               href="https://github.com/runletapp/runlet/releases">
-              <FiGithub size={24} /> GitHub Releases
+              <FiGithub size={24} /> Release Notes
             </Link>
+
+            <div className={styles.platforms}>
+              <h3>Supported Platforms</h3>
+              <div>
+                <DiApple size={size} />
+                <DiWindows size={size} />
+                <DiLinux size={size} />
+                <DiDebian size={size} />
+              </div>
+            </div>
           </div>
 
           <div className="col col--6">

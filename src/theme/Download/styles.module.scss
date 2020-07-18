@@ -1,7 +1,12 @@
 .button {
   display: inline-flex;
   align-items: center;
-  margin: 1rem 0 3rem;
+  margin: 1rem 0 4rem;
+}
+
+.platforms {
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary-light);
 }
 
 .assets {
