@@ -16,11 +16,11 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    image: 'img/logo.svg',
-    // googleAnalytics: {
-    //   trackingID: 'UA-132764481-1',
-    //   anonymizeIP: true, // Should IPs be anonymized?
-    // },
+    image: 'img/pages/light/homepage-screenshot.png',
+    googleAnalytics: {
+      trackingID: 'UA-132764481-1',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     // algolia: {
     //   apiKey: 'be3d58e5001e0becb68cd83f0914980f',
     //   indexName: 'runlet',
