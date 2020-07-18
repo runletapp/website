@@ -4,7 +4,7 @@ title: 'Terms of Service'
 sidebar_label: 'Terms of Service'
 ---
 
-###### Version 1.1 — July 17, 2020
+###### Version 1.1 — July 18, 2020
 
 ## 1. Definitions
 

@@ -14,7 +14,7 @@ myjob:
     where: all
 ```
 
-This will run `myjob` in all connected devices. If there are three devices connected during the execution time, then three instances of `myjob` will be created and executed in each device.
+It runs `myjob` in all connected devices. If there are three devices connected during the execution time, then three instances of `myjob` will be created and executed in each device.
 
 ### Where: any
 
@@ -24,7 +24,7 @@ myjob:
     where: any
 ```
 
-This will run `myjob` on the next available connected device. Note that this will create only one instance of the job.
+It runs `myjob` on the next available connected device. Note that this will create only one instance of the job.
 
 ### Where: custom
 
@@ -37,4 +37,4 @@ myjob:
         - mars
 ```
 
-This will run `myjob` on every device included on the `whereCustom` list. Note that this will create one job for each specified device.
+It runs `myjob` on every device included on the `whereCustom` list. Note that this will create one job for each specified device.
