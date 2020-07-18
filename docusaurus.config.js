@@ -103,7 +103,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
   },
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: ['docusaurus-plugin-sass', '@docusaurus/plugin-ideal-image'],
   presets: [
     [
       '@docusaurus/preset-classic',

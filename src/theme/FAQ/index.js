@@ -63,12 +63,12 @@ function FAQ() {
     <section id="faq" className={styles.faq}>
       <div className="container">
         <div className="row">
-          <div className="col col--5 col--offset-1">
+          <div className="col col--6">
             {data[0] && <Question {...data[0]} />}
             {data[1] && <Question {...data[1]} />}
           </div>
 
-          <div className="col col--5">
+          <div className="col col--6">
             {data[2] && <Question {...data[2]} />}
             {data[3] && <Question {...data[3]} />}
           </div>

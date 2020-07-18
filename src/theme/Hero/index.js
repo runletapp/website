@@ -4,24 +4,25 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import Image from '@theme/IdealImage';
 
 import styles from './styles.module.scss';
+import screenshot from '../../../static/img/pages/light/homepage-screenshot.png';
 
 function Hero() {
   const context = useDocusaurusContext();
   const {isDarkTheme} = useThemeContext();
-
   const {siteConfig = {}} = context;
-  const themePath = isDarkTheme ? 'dark' : 'light';
 
   return (
     <header id="hero" className={clsx('hero', styles.banner)}>
       <div className="container">
         <img
           src={useBaseUrl(`img/logo.svg`)}
-          alt="Screenshot"
+          alt="Logo"
           className={styles.logo}
         />
+
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className={clsx('hero__subtitle', styles.subtitle)}>
           {siteConfig.tagline}
@@ -36,8 +37,8 @@ function Hero() {
         </div>
       </div>
 
-      <img
-        src={useBaseUrl(`img/pages/${themePath}/homepage-screenshot.png`)}
+      <Image
+        img={screenshot}
         alt="Screenshot"
         className={clsx('shadow-md', styles.image)}
       />
