@@ -16,6 +16,7 @@ function useLatestRelease() {
     `https://api.github.com/repos/runletapp/runlet/releases/latest`,
     fetcher,
   );
+
   return {
     data: data,
     isLoading: !error && !data,

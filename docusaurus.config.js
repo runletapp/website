@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Runlet',
   tagline: 'A cloud-based job manager that integrates your devices',
-  url: 'https://runlet.app',
+  url: 'https://runletapp.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'runletapp', // Usually your GitHub org/user name.
-  projectName: 'website', // Usually your repo name.
+  projectName: 'runletapp.github.io', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
