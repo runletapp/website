@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import {FaQuestion} from 'react-icons/fa';
 import {FiBook, FiEdit3, FiGithub} from 'react-icons/fi';
 
-import Headline from '../Headline';
+import Headline from '@theme/Headline';
 import styles from './styles.module.scss';
 
 const data = [

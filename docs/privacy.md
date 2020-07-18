@@ -4,7 +4,7 @@ title: 'Privacy Policy'
 sidebar_label: 'Privacy Policy'
 ---
 
-###### Version 1 — July 15, 2019
+###### Version 2 — July 17, 2020
 
 This Privacy Policy explains how Personal Information about our (potential) customers and other individuals using our services is collected, used and disclosed by Runlet and its respective affiliates ("us", "we", "our" or "Runlet"). This Privacy Policy describes our privacy practices in relation to the use of our websites (including any customer portal or interactive customer website) (https://runlet.app and https://cloud.runlet.app), our software (Runlet), services, solutions, tools, and related applications, services, and programs, including research and marketing activities, offered by us (the "Services"), as well as your choices regarding use, access, storage and correction of Personal Information. It also describes how we collect, use, disclose and otherwise process Personal Information collected in relation to our Services and otherwise in the course of our business activities.
 
@@ -20,7 +20,7 @@ As part of our normal business operations, your usage of our Services, our admin
 
 While using our Services, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. For example, we collect information when you create an account, request customer support or otherwise communicate with us. The types of information we may collect include basic user information (such as your name, email address, and social media avatar), company information and any other information you choose to provide.
 
-We will not collect financial information from you (such as your payment card number, expiration date or security code). All payments to us are handled via a third party, [Chargebee](https://www.chargebee.com). We refer to their Privacy Statement https://www.chargebee.com/security/gdpr.
+<!-- We will not collect financial information from you (such as your payment card number, expiration date or security code). All payments to us are handled via a third party, [Chargebee](https://www.chargebee.com). We refer to their Privacy Statement https://www.chargebee.com/security/gdpr. -->
 
 #### Personal Information We Collect Automatically When You Use our Services
 

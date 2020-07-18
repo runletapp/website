@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 
-import Headline from '../Headline';
 import styles from './styles.module.scss';
 
 const data = [
@@ -54,7 +53,7 @@ const data = [
 function Question({title, description}) {
   return (
     <div className={styles.question}>
-      <h2 className={styles.title}>{title}</h2>
+      <h3 className={styles.title}>{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -62,7 +61,7 @@ function Question({title, description}) {
 
 function FAQ() {
   return (
-    <section id="faq" className={styles.faq}>
+    <section id="faq">
       <div className="container">
         <div className="row">
           <div className="col col--5">

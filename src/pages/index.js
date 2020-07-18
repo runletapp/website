@@ -2,11 +2,11 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import FAQ from '../components/FAQ';
-import Features from '../components/Features';
-import Hero from '../components/Hero';
-import Resources from '../components/Resources';
-import Download from '../components/Download';
+import FAQ from '@theme/FAQ';
+import Features from '@theme/Features';
+import Hero from '@theme/Hero';
+import Resources from '@theme/Resources';
+import Download from '@theme/Download';
 
 import styles from './styles.module.scss';
 

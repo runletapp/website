@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 
-import Headline from '../Headline';
+import Headline from '@theme/Headline';
 import styles from './styles.module.scss';
 
 const data = [
@@ -67,7 +67,7 @@ function Features() {
           <div className="container">
             <Headline
               category="Features"
-              title="Manage your fleet of devices with ease"
+              title="Manage your device fleet with ease"
             />
 
             <div className="row">

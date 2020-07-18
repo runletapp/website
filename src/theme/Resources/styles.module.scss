@@ -1,6 +1,4 @@
 .resources {
-  width: 100%;
-  padding: 4rem 0;
   background-color: var(--ifm-background-surface-color);
 }
 
@@ -17,9 +15,8 @@
 .card {
   flex-grow: 1;
   justify-content: center;
-  border: 2px solid transparent;
 
   &:hover {
-    border-color: var(--ifm-color-primary-light);
+    border-color: var(--ifm-color-primary-light) !important;
   }
 }

@@ -8,12 +8,18 @@
   margin-bottom: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-light);
+
+  &:before {
+    content: '#';
+    display: inline;
+    margin-right: 0.25rem;
+  }
 }
 
 .title {
-  max-width: 600px;
-  font-size: 3rem;
+  max-width: 500px;
+  font-size: 2.8rem;
   line-height: initial;
   word-spacing: -0.25rem;
 }

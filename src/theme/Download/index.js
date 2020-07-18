@@ -1,12 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useSWR from 'swr';
 import filesize from 'filesize';
+import useSWR from 'swr';
+import Link from '@docusaurus/Link';
 import {FiGithub, FiPackage} from 'react-icons/fi';
 import {DiApple, DiDebian, DiWindows} from 'react-icons/di';
 
-import Headline from '../Headline';
+import Headline from '@theme/Headline';
 import styles from './styles.module.scss';
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -39,10 +39,10 @@ function icon(type) {
 }
 
 function Download() {
-  const {data, isLoading, isError} = useLatestRelease();
+  const {data} = useLatestRelease();
 
   return (
-    <section id="download" className={styles.download}>
+    <section id="download">
       <div className="container">
         <Headline
           category="Download"

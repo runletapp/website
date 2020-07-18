@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'runletapp', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'website', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -16,6 +16,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
+    image: 'img/logo.svg',
     // googleAnalytics: {
     //   trackingID: 'UA-132764481-1',
     //   anonymizeIP: true, // Should IPs be anonymized?
@@ -50,7 +51,6 @@ module.exports = {
       ],
     },
     footer: {
-      // style: 'dark',
       links: [
         {
           title: 'Runlet',
