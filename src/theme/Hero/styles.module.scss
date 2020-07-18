@@ -19,10 +19,6 @@
     var(--ifm-background-surface-color)
   );
 
-  @media screen and (max-width: 996px) {
-    padding: 2rem 0 0;
-  }
-
   &:after {
     content: '';
     display: block;

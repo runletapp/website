@@ -1,12 +1,16 @@
 .button {
   display: inline-flex;
   align-items: center;
-  margin: 1rem 0 4rem;
+  margin: 1rem 0 3rem;
 }
 
 .platforms {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   color: var(--ifm-color-primary-light);
+
+  @media screen and (max-width: 996px) {
+    display: none;
+  }
 }
 
 .assets {

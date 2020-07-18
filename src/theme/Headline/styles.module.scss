@@ -5,7 +5,7 @@
 .category {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   color: var(--ifm-color-primary-light);
@@ -19,9 +19,13 @@
 
 .title {
   max-width: 500px;
-  font-size: 2.8rem;
+  font-size: 2rem;
   line-height: initial;
   word-spacing: -0.25rem;
+
+  @media screen and (min-width: 576px) {
+    font-size: 2.8rem;
+  }
 }
 
 .titleGradient {

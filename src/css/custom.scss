@@ -7,8 +7,6 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  // --ifm-font-size-base: 100%;
-  // --ifm-code-font-size: 95%;
   --ifm-background-color: #fff;
   --ifm-background-surface-color: #f2f6fa;
   --ifm-color-primary: #5e6ad2;
@@ -20,11 +18,10 @@
   --ifm-color-primary-lightest: #a5ace6;
   --ifm-card-background-color: var(--ifm-background-color);
   --ifm-footer-background-color: var(--ifm-background-surface-color);
+  --ifm-color-info: var(--ifm-color-primary-light);
 }
 
 html[data-theme='dark'] {
-  // --ifm-background-color: #23263c;
-  // --ifm-background-surface-color: #0b0d1b;
   --ifm-background-color: #20232a;
   --ifm-background-surface-color: #121212;
   --ifm-color-primary: #8b9dff;
