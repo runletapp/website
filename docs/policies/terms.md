@@ -64,11 +64,9 @@ Capitalized terms shall have the meanings set forth in this section, or in the s
 
 **6.d Legally Required Disclosure​.** Notwithstanding the foregoing, each Party may disclose Confidential Information to ​the limited extent required in order to comply with the order of a court or other governmental body, or as otherwise necessary to comply with applicable law, provided that the Party making the disclosure pursuant to the order shall first have given notice to the other Party (to the extent permitted) and shall have provided such assistance as may be reasonably requested to limit such disclosure.
 
-<!-- ## 7. Fees, Payment and Audit
+## 7. Fees, Payment and Audit
 
-**7.a Payment Terms.** Customer will pay to Runlet, without offset or deduction, all fees due under this Agreement. All payments will be in U.S. dollars. Unless otherwise specified, all fees shall be due 30 days from the date of Runlet’s invoice and all fees are non-cancelable and non-refundable. All amounts will exclude all applicable sales, use, and other taxes.
-
-**7.2 Merchant of Record.** Our order process is conducted by our online reseller Chargebee.com. Chargebee.com is the Merchant of Record for all our orders. Chargebee provides all customer service inquiries and handles returns. -->
+**7.a Fees.** Subscriber will pay all fees specified in Service Orders and provide accurate and updated billing contact information. Except as set forth in a Service Order, all fees payable under the Agreement shall be made in U.S. Dollars. Minimum commitments in Service Orders are (a) based on Services purchased and not actual usage; (b) non-cancelable; and (c) cannot be decreased during the specified term. Fees paid for minimum commitments are not refundable. Subscriber’s payments of fees are neither (x) contingent on the delivery of any future functionality or features nor (y) dependent on statements not set forth in the Agreement or any Service Order.
 
 ## 8. Warranties and Disclaimers
 

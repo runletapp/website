@@ -61,11 +61,11 @@ module.exports = {
             },
             {
               label: 'Terms of Service',
-              to: 'docs/terms',
+              to: 'docs/policies/terms',
             },
             {
               label: 'Privacy Policy',
-              to: 'docs/privacy',
+              to: 'docs/policies/privacy',
             },
           ],
         },

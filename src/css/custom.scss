@@ -54,7 +54,7 @@ html[data-theme='dark'] {
 section {
   padding: 4rem 0;
 
-  @media screen and (max-width: 966px) {
+  @media screen and (max-width: 996px) {
     padding: 2rem 0;
   }
 }
@@ -102,8 +102,10 @@ section {
   border-top: 1px solid var(--ifm-background-color);
 
   &__links {
-    max-width: 768px;
-    margin: 0 auto 4rem;
+    @media screen and (min-width: 997px) {
+      max-width: 768px;
+      margin: 0 auto 4rem;
+    }
   }
 
   &__logo {

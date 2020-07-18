@@ -14,7 +14,7 @@
   overflow: hidden;
   background-color: transparent;
 
-  @media screen and (max-width: 966px) {
+  @media screen and (max-width: 996px) {
     padding: 2rem 0 0;
   }
 
@@ -53,6 +53,5 @@
   z-index: 10;
   width: 90%;
   max-width: 1400px;
-  // border: 1px solid var(--ifm-color-primary-light);
   border-radius: 6px;
 }

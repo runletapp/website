@@ -34,8 +34,8 @@ const data = [
         name, email address, and social media avatar), and we do not share your
         personal data with any affiliates or service providers. For more
         details, have a look at our{' '}
-        <Link to="docs/terms">terms of service</Link> and{' '}
-        <Link to="docs/privacy">privacy policy</Link>.
+        <Link to="docs/policies/terms">terms of service</Link> and{' '}
+        <Link to="docs/policies/privacy">privacy policy</Link>.
       </>
     ),
   },
