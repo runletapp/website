@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
 import Image from '@theme/IdealImage';
 
 import styles from './styles.module.scss';
@@ -11,7 +10,6 @@ import screenshot from '../../../static/img/pages/light/homepage-screenshot.png'
 
 function Hero() {
   const context = useDocusaurusContext();
-  const {isDarkTheme} = useThemeContext();
   const {siteConfig = {}} = context;
 
   return (

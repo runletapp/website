@@ -29,7 +29,7 @@ module.exports = {
     // },
     navbar: {
       hideOnScroll: false,
-      title: 'Runlet',
+      // title: 'Runlet',
       logo: {
         alt: 'Runlet Logo',
         src: 'img/logo.svg',

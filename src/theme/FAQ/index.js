@@ -21,7 +21,7 @@ const data = [
         Runlet provides an easy to use interface to manage jobs across a fleet
         of connected devices, trigger remote executions, and view logs from
         remotely executed jobs. You can also quickly get a new device started
-        since all configuration files and logs are stored in the cloud.
+        since all configuration files and records are in the cloud.
       </>
     ),
   },
@@ -29,11 +29,10 @@ const data = [
     title: <>How is personal data handled?</>,
     description: (
       <>
-        We only collect basic user information during registration (such as your
-        name, email address, and social media avatar), and we do not share your
-        personal data with any affiliates or service providers. For more
-        details, have a look at our{' '}
-        <Link to="docs/policies/terms">terms of service</Link> and{' '}
+        We only collect necessary user information during registration (such as
+        your name, email address, and social media avatar). We do not share your
+        data with any affiliates or service providers. For more details, have a
+        look at our <Link to="docs/policies/terms">terms of service</Link> and{' '}
         <Link to="docs/policies/privacy">privacy policy</Link>.
       </>
     ),
@@ -43,7 +42,7 @@ const data = [
     description: (
       <>
         Yes, all logs are encrypted by the host machine before submitted to our
-        servers, and decrypted once received by connected devices.
+        servers and decrypted once received by connected devices.
       </>
     ),
   },

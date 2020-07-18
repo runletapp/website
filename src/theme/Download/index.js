@@ -54,10 +54,10 @@ function Download() {
         <div className="row">
           <div className="col col--5 col--offset-1">
             <p>
-              The desktop distribution includes both the daemon and GUI, and is
-              recommended for Linux, Mac and Windows. The ARM distribution
-              includes only the daemon, and is recommended for resource
-              constrained devices like the Raspberry Pi.
+              The desktop distribution is recommended for Linux, Mac, and
+              Windows users. The ARM distribution includes only the daemon and
+              is recommended for resource-constrained devices like the Raspberry
+              Pi.
             </p>
 
             <Link

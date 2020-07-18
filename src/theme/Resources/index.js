@@ -31,7 +31,7 @@ const data = [
     icon: <FiGithub size="48" />,
     title: <>Contribute</>,
     description: (
-      <>Help us improving by submitting bugs and feature requests on GitHub</>
+      <>Help us improve by submitting bugs and feature requests on GitHub</>
     ),
   },
 ];

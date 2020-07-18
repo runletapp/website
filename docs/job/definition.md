@@ -4,7 +4,7 @@ title: 'Definition'
 sidebar_label: 'Definition'
 ---
 
-We use the YAML data-serialization language to configure jobs in Runlet. The job syntax block is fairly simple and you can define a job in two ways:
+We use the YAML data-serialization language to configure jobs in Runlet. The job syntax block is relatively simple, and you can define a job in two ways:
 
 **Reduced syntax:**
 
@@ -36,7 +36,7 @@ myjob2: |
 
 ### Description (optional)
 
-You can define a description for a job that will be shown in the desktop app.
+You can define a description for a job as follows:
 
 ```shell
 myjob:
@@ -54,7 +54,7 @@ myjob:
 
 ### Change the job entrypoint (optional)
 
-By default jobs are executed using `/bin/bash` on Linux and MacOS and `cmd.exe` on Windows. You can change this behavior by using the `entrypoint` key.
+By default, jobs are executed using `/bin/bash` on Linux and MacOS and `cmd.exe` on Windows. You can change this behavior by using the `entrypoint` key.
 
 ```shell
 myjob:
@@ -66,4 +66,4 @@ myjob:
     entrypoint: [ "python" ]
 ```
 
-It requires a list of strings denoting the binary to be used and a list of args. Runlet will wrap the contents of `script` in a file and pass to the entrypoint execute.
+It requires a list of strings denoting the used binary and a list of args. Runlet will wrap the contents of `script` in a file and pass to the `entrypoint` execute.

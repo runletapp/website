@@ -12,6 +12,6 @@ runlet @run myjob
 
 :::note
 
-Everything after the job name in the command line will be handed out as arguments to the job.
+Everything after the job name is considered job arguments.
 
 :::

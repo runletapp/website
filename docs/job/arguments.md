@@ -26,4 +26,4 @@ Sleeping for 5s
 Done
 ```
 
-`.Args` is a string array containing the job name in the index 0 and all extra arguments passed during the command line call. As of today, there's no way to pass job arguments via the user interface yet.
+`.Args` is a string array containing the job name in index 0, and all extra arguments passed during the command line call. As of today, there's no way to pass job arguments via the user interface yet.

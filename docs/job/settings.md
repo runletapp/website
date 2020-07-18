@@ -6,13 +6,13 @@ sidebar_label: 'Settings'
 
 :::note
 
-In the configuration file is also possible to define special settings.
+In the configuration file is also possible to define unique settings.
 
 :::
 
 ### Default Entrypoint
 
-To define a default entrypoint to all jobs use the `entrypoint` key.
+To define a default entrypoint to all jobs, use the `entrypoint` key.
 
 ```shell
 settings:
@@ -47,4 +47,4 @@ settings:
 myjob: ls -lah
 ```
 
-The last code block will disable the daemon `koalatime` and blocks it from receiving jobs. You can see the daemons status in the Devices page on the Runlet ui.
+The last code block will disable the daemon `koalatime` and blocks it from receiving jobs. You can see the status of daemons in the GUI.

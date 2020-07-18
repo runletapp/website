@@ -4,7 +4,7 @@ title: '@config'
 sidebar_label: '@config'
 ---
 
-To add or remove jobs you can run the following command:
+To add or remove jobs, you can run the following command:
 
 ```shell
 runlet @config
@@ -12,7 +12,7 @@ runlet @config
 
 :::important
 
-You will need to run the command as root on linux if Runlet is running as a service.
+You will need to run the command as root on Linux if Runlet is running as a service.
 
 ```shell
 sudo runlet @config
@@ -26,6 +26,4 @@ The command above will use the environment variable `$EDITOR` to edit the curren
 
 :::
 
-It's highly recommended that you use the `@config` command. This command will make sure that the changes will be propagated to other daemons connected to your account.
-
-Once you've finished save and exit.
+We recommend using the `@config` command. This command will make sure that the changes are propagated to other daemons connected to your account.

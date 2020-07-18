@@ -4,7 +4,7 @@ title: '@signin'
 sidebar_label: '@signin'
 ---
 
-To sign in to your account run the following command that will create a unique link to sign in to your account.
+To sign in to your account, run the following command that creates a unique link to sign in to your account.
 
 ```shell
 runlet @signin
@@ -12,7 +12,7 @@ runlet @signin
 
 :::note
 
-A QR-Code is also provided to help sign in with you mobile phone on head-less servers.
+A QR-Code is also provided to help sign in with your mobile phone on head-less servers.
 
 :::
 

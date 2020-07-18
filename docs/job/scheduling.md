@@ -6,7 +6,7 @@ sidebar_label: 'Scheduling'
 
 Users can schedule jobs with the `every` key when defining jobs. There are two valid syntaxes: cron-like format and human-readable.
 
-### Scheduling a job with cron-like format
+### Scheduling a job with the cron-like format
 
 ```shell
 myjob:
@@ -14,9 +14,9 @@ myjob:
     every: "0 1 * * *"
 ```
 
-This will run `myjob` every day at 1am.
+It runs `myjob` every day at 1 AM.
 
-### Scheduling a job with human-readable format
+### Scheduling a job with the human-readable format
 
 ```shell
 myjob:
@@ -24,4 +24,4 @@ myjob:
     every: 6h
 ```
 
-This will run `myjob` every 6 hours. The first execution will happen in the following 6 hours. Possible other modifiers are `s` (seconds), `m` (minutes) and `d` (days).
+It runs `myjob` every 6 hours. The first execution will happen in the following 6 hours. Possible other modifiers are `s` (seconds), `m` (minutes) and `d` (days).

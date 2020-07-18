@@ -4,7 +4,7 @@ title: 'Device Assignment'
 sidebar_label: 'Device Assignment'
 ---
 
-By default the job will be executed in the device in which you are connected. To define a different device one can use the keys `where` and `whereCustom`.
+By default, the job is executed in the device in which you are connected. To define a different device, use the keys `where` and `whereCustom`.
 
 ### Where: all
 
