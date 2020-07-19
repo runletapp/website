@@ -99,6 +99,7 @@ module.exports = {
     algolia: {
       apiKey: 'be3d58e5001e0becb68cd83f0914980f',
       indexName: 'runlet',
+      appId: '57UV1WGQ5Q',
     },
   },
   plugins: ['docusaurus-plugin-sass', '@docusaurus/plugin-ideal-image'],
