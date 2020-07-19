@@ -16,17 +16,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    image: 'img/pages/light/homepage-screenshot.png',
-    googleAnalytics: {
-      trackingID: 'UA-132764481-1',
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
-    // algolia: {
-    //   apiKey: 'be3d58e5001e0becb68cd83f0914980f',
-    //   indexName: 'runlet',
-    //   appId: 'app-id', // Optional, if you run the DocSearch crawler on your own
-    //   algoliaOptions: {}, // Optional, if provided by Algolia
-    // },
+    image: 'img/runlet.png',
     navbar: {
       hideOnScroll: false,
       // title: 'Runlet',
@@ -46,7 +36,7 @@ module.exports = {
           href: 'https://github.com/runletapp/runlet',
           position: 'right',
           className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          'aria-label': 'GitHub Repository',
         },
       ],
     },
@@ -55,6 +45,10 @@ module.exports = {
         {
           title: 'Runlet',
           items: [
+            {
+              label: 'FAQ',
+              to: 'docs/faq',
+            },
             {
               label: 'Terms of Service',
               to: 'docs/policies/terms',
@@ -97,6 +91,14 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
+    },
+    googleAnalytics: {
+      trackingID: 'UA-132764481-1',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+    algolia: {
+      apiKey: 'be3d58e5001e0becb68cd83f0914980f',
+      indexName: 'runlet',
     },
   },
   plugins: ['docusaurus-plugin-sass', '@docusaurus/plugin-ideal-image'],
