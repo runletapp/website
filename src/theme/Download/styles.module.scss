@@ -18,6 +18,10 @@
   border: 1px solid var(--ifm-color-primary-light);
   border-radius: 6px;
 
+  @media screen and (max-width: 400px) {
+    font-size: 0.85rem;
+  }
+
   .asset,
   .info {
     padding: 0.5rem 1rem;
