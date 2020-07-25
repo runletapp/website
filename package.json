@@ -16,7 +16,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.58",
+    "@docusaurus/core": "^2.0.0-alpha.59",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.39",
     "@docusaurus/preset-classic": "^2.0.0-alpha.58",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.32",
