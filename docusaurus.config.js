@@ -19,12 +19,12 @@ module.exports = {
     image: 'img/runlet.png',
     navbar: {
       hideOnScroll: false,
-      // title: 'Runlet',
+      title: 'Runlet',
       logo: {
         alt: 'Runlet Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs',
           activeBasePath: 'docs',
