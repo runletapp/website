@@ -97,9 +97,8 @@ module.exports = {
       anonymizeIP: true, // Should IPs be anonymized?
     },
     algolia: {
-      apiKey: 'be3d58e5001e0becb68cd83f0914980f',
+      apiKey: '09724729b4ec048fc1aa41a08cbcfa03',
       indexName: 'runlet',
-      appId: '57UV1WGQ5Q',
     },
   },
   plugins: ['docusaurus-plugin-sass', '@docusaurus/plugin-ideal-image'],
