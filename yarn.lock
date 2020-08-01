@@ -1431,12 +1431,13 @@
     react-router-dom "^5.1.2"
     react-toggle "^4.1.1"
 
-"@docusaurus/theme-search-algolia@^2.0.0-alpha.32", "@docusaurus/theme-search-algolia@^2.0.0-alpha.59":
-  version "2.0.0-alpha.59"
-  resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.59.tgz#b5cf1ad06800d604a7e4cd73169e673f59ed45a9"
-  integrity sha512-hvzunymTG9/XXoWFPBDQTaZe9w6DejfsK8vkqpSBb2MgWqQOge8C1ZGxvQqaMyG5Wtge8+xRbUpfK6takqW+Fw==
+"@docusaurus/theme-search-algolia@^2.0.0-alpha.59", "@docusaurus/theme-search-algolia@^2.0.0-alpha.60":
+  version "2.0.0-alpha.60"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.60.tgz#0b748222fe5c639d8e101b721859fb5b0d573378"
+  integrity sha512-1n0pO26Qlj1KF1p+W/kNblz3yyzzi6FNGcgCZZzhp4TmCRmo6RuE00WeVQ11WV5ja1djMjDtTpW5Soeo2nYPpA==
   dependencies:
     "@docsearch/react" "^1.0.0-alpha.24"
+    "@hapi/joi" "^17.1.1"
     algoliasearch "^4.0.0"
     algoliasearch-helper "^3.1.1"
     clsx "^1.1.1"
