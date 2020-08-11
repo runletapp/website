@@ -3,6 +3,7 @@ module.exports = {
   tagline: 'A cloud-based job manager that integrates your devices',
   url: 'https://runletapp.github.io',
   baseUrl: '/',
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'runletapp', // Usually your GitHub org/user name.
   projectName: 'runletapp.github.io', // Usually your repo name.

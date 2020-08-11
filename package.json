@@ -1,13 +1,14 @@
 {
   "name": "runlet-website",
   "description": "Runlet Website",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
     "commit": "git-cz",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts}\"",
     "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,ts}\"",
@@ -20,6 +21,7 @@
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.39",
     "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.60",
+    "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.9",
     "filesize": "^6.1.0",
