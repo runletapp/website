@@ -121,11 +121,11 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'getting-started',
           sidebarPath: require.resolve('./sidebars.js'),
-          // editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
+          editUrl: 'https://github.com/runletapp/website/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // editUrl: 'https://github.com/runletapp/docusaurus/edit/master/',
+          editUrl: 'https://github.com/runletapp/website/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
