@@ -48,7 +48,7 @@
     "@babel/core": "7.11.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
+    "@storybook/addons": "^6.0.7",
     "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
     "cz-conventional-changelog": "^3.2.0",
