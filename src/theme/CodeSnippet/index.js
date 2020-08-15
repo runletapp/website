@@ -5,7 +5,7 @@ import useThemeContext from "@theme/hooks/useThemeContext";
 
 import styles from "./styles.module.scss";
 
-function CodeBlock(props) {
+function CodeSnippet(props) {
   const {
     siteConfig: {
       themeConfig: { prism = {} },
@@ -29,15 +29,15 @@ function CodeBlock(props) {
   const darkModeTheme = prism.darkTheme || lightModeTheme;
   const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme;
 
-  const { lang = "javascript", code } = props;
+  const { language = "javascript", code } = props;
 
   return (
     <Highlight
       {...defaultProps}
+      code={code}
+      language={language}
       key={mounted}
       theme={prismTheme}
-      code={code}
-      language={lang}
     >
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre className={`${className} ${styles.code}`} style={style}>
@@ -54,4 +54,4 @@ function CodeBlock(props) {
   );
 }
 
-export default CodeBlock;
+export default CodeSnippet;
