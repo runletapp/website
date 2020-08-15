@@ -4,6 +4,10 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
+![GitHub release](https://img.shields.io/github/release/runletapp/runlet)
+![GitHub All Releases](https://img.shields.io/github/downloads/runletapp/runlet/total)
+[![Gitter](https://badges.gitter.im/runletapp/community.svg)](https://gitter.im/runletapp/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 This documentation describes how to use Runlet via CLI and configure jobs using the YAML language.
 
 :::note
