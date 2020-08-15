@@ -1,20 +1,20 @@
-import React from 'react';
-import clsx from 'clsx';
-import filesize from 'filesize';
-import useSWR from 'swr';
-import Link from '@docusaurus/Link';
-import {FiGithub, FiPackage} from 'react-icons/fi';
-import {DiApple, DiLinux, DiWindows} from 'react-icons/di';
+import React from "react";
+import clsx from "clsx";
+import filesize from "filesize";
+import useSWR from "swr";
+import Link from "@docusaurus/Link";
+import { FiGithub, FiPackage } from "react-icons/fi";
+import { DiApple, DiLinux, DiWindows } from "react-icons/di";
 
-import Headline from '@theme/Headline';
-import styles from './styles.module.scss';
+import Headline from "@theme/Headline";
+import styles from "./styles.module.scss";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function useLatestRelease() {
-  const {data, error} = useSWR(
+  const { data, error } = useSWR(
     `https://api.github.com/repos/runletapp/runlet/releases/latest`,
-    fetcher,
+    fetcher
   );
 
   return {
@@ -28,11 +28,11 @@ function icon(type) {
   const size = 24;
 
   switch (type) {
-    case 'application/x-apple-diskimage':
+    case "application/x-apple-diskimage":
       return <DiApple size={size} />;
-    case 'application/x-msdos-program':
+    case "application/x-msdos-program":
       return <DiWindows size={size} />;
-    case 'application/x-debian-package':
+    case "application/x-debian-package":
       return <DiLinux size={size} />;
     default:
       return <FiPackage size={size} />;
@@ -40,7 +40,7 @@ function icon(type) {
 }
 
 function Download() {
-  const {data} = useLatestRelease();
+  const { data } = useLatestRelease();
   const size = 36;
 
   return (
@@ -63,10 +63,11 @@ function Download() {
 
             <Link
               className={clsx(
-                'button button--primary button--lg',
-                styles.button,
+                "button button--primary button--lg",
+                styles.button
               )}
-              href="https://github.com/runletapp/runlet/releases">
+              href="https://github.com/runletapp/runlet/releases"
+            >
               <FiGithub size={24} /> Release Notes
             </Link>
 

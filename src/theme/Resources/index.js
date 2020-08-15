@@ -1,25 +1,25 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import {FaQuestion} from 'react-icons/fa';
-import {FiBook, FiEdit3, FiGithub} from 'react-icons/fi';
+import React from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import { FaQuestion } from "react-icons/fa";
+import { FiBook, FiEdit3, FiGithub } from "react-icons/fi";
 
-import Headline from '@theme/Headline';
-import styles from './styles.module.scss';
+import Headline from "@theme/Headline";
+import styles from "./styles.module.scss";
 
 const data = [
   {
-    href: 'docs/faq',
+    href: "docs/faq",
     icon: <FaQuestion size="48" />,
     description: <>Frequently Asked Questions</>,
   },
   {
-    href: 'blog',
+    href: "blog",
     icon: <FiEdit3 size="48" />,
     description: <>Explore our blog for news and tips</>,
   },
   {
-    href: 'docs',
+    href: "docs",
     icon: <FiBook size="48" />,
     title: <>Documentation</>,
     description: (
@@ -27,7 +27,7 @@ const data = [
     ),
   },
   {
-    href: 'https://github.com/runletapp/runlet',
+    href: "https://github.com/runletapp/runlet",
     icon: <FiGithub size="48" />,
     title: <>Contribute</>,
     description: (
@@ -38,9 +38,9 @@ const data = [
 
 export default Resources;
 
-function Resource({href, icon, title, description}) {
+function Resource({ href, icon, title, description }) {
   return (
-    <Link className={clsx('card', styles.card)} to={href}>
+    <Link className={clsx("card", styles.card)} to={href}>
       <div className="card__header">
         {icon && <div className="card__icon">{icon}</div>}
         {title && <h3>{title}</h3>}
@@ -68,20 +68,20 @@ function Resources() {
 
             <div className="row">
               {data[0] && data[1] && (
-                <div className={clsx('col', styles.resource)}>
+                <div className={clsx("col", styles.resource)}>
                   <Resource {...data[0]} />
                   <Resource {...data[1]} />
                 </div>
               )}
 
               {data[2] && (
-                <div className={clsx('col', styles.resource)}>
+                <div className={clsx("col", styles.resource)}>
                   <Resource {...data[2]} />
                 </div>
               )}
 
               {data[3] && (
-                <div className={clsx('col', styles.resource)}>
+                <div className={clsx("col", styles.resource)}>
                   <Resource {...data[3]} />
                 </div>
               )}

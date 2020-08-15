@@ -1,14 +1,14 @@
-import React, {useEffect, useState} from 'react';
-import Highlight, {defaultProps} from 'prism-react-renderer';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
+import React, { useEffect, useState } from "react";
+import Highlight, { defaultProps } from "prism-react-renderer";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useThemeContext from "@theme/hooks/useThemeContext";
 
-import styles from './styles.modules.scss';
+import styles from "./styles.module.scss";
 
-function CodeSnippet(props) {
+function CodeBlock(props) {
   const {
     siteConfig: {
-      themeConfig: {prism = {}},
+      themeConfig: { prism = {} },
     },
   } = useDocusaurusContext();
 
@@ -24,26 +24,27 @@ function CodeSnippet(props) {
     setMounted(true);
   }, []);
 
-  const {isDarkTheme} = useThemeContext();
+  const { isDarkTheme } = useThemeContext();
   const lightModeTheme = prism.theme;
   const darkModeTheme = prism.darkTheme || lightModeTheme;
   const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme;
 
-  const {lang = 'ejs', snippet} = props;
+  const { lang = "javascript", code } = props;
 
   return (
     <Highlight
       {...defaultProps}
       key={mounted}
       theme={prismTheme}
-      code={snippet}
-      language={lang}>
-      {({className, style, tokens, getLineProps, getTokenProps}) => (
-        <pre className={`${className} ${styles.codeSnippet}`} style={style}>
+      code={code}
+      language={lang}
+    >
+      {({ className, style, tokens, getLineProps, getTokenProps }) => (
+        <pre className={`${className} ${styles.code}`} style={style}>
           {tokens.map((line, i) => (
-            <div {...getLineProps({line, key: i})}>
+            <div {...getLineProps({ line, key: i })}>
               {line.map((token, key) => (
-                <span {...getTokenProps({token, key})} />
+                <span {...getTokenProps({ token, key })} />
               ))}
             </div>
           ))}
@@ -53,4 +54,4 @@ function CodeSnippet(props) {
   );
 }
 
-export default CodeSnippet;
+export default CodeBlock;

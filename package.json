@@ -12,9 +12,7 @@
     "commit": "git-cz",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts}\"",
     "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,ts}\"",
-    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\"",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.61",
@@ -45,12 +43,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.11.1",
-    "@storybook/addon-actions": "^6.0.10",
-    "@storybook/addon-links": "^6.0.10",
-    "@storybook/addons": "^6.0.10",
-    "@storybook/react": "^6.0.7",
-    "babel-loader": "^8.1.0",
     "cz-conventional-changelog": "^3.2.0",
     "prettier": "2.0.5"
   },

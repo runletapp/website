@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from '@docusaurus/Link';
+import React from "react";
+import Link from "@docusaurus/Link";
 
-import styles from './styles.module.scss';
+import styles from "./styles.module.scss";
 
 const data = [
   {
@@ -32,7 +32,7 @@ const data = [
         We only collect necessary user information during registration (such as
         your name, email address, and social media avatar). We do not share your
         data with any affiliates or service providers. For more details, have a
-        look at our <Link to="docs/policies/terms">terms of service</Link> and{' '}
+        look at our <Link to="docs/policies/terms">terms of service</Link> and{" "}
         <Link to="docs/policies/privacy">privacy policy</Link>.
       </>
     ),
@@ -48,7 +48,7 @@ const data = [
   },
 ];
 
-function Question({title, description}) {
+function Question({ title, description }) {
   return (
     <div className={styles.question}>
       <h3 className={styles.title}>{title}</h3>

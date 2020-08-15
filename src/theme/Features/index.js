@@ -1,8 +1,8 @@
-import React from 'react';
-import clsx from 'clsx';
+import React from "react";
+import clsx from "clsx";
 
-import Headline from '@theme/Headline';
-import styles from './styles.module.scss';
+import Headline from "@theme/Headline";
+import styles from "./styles.module.scss";
 
 const data = [
   {
@@ -44,9 +44,9 @@ const data = [
   },
 ];
 
-function Feature({title, description}) {
+function Feature({ title, description }) {
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       <div className="card">
         <div className="card__header">
           <h3>{title}</h3>

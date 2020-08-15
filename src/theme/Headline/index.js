@@ -1,10 +1,10 @@
-import React from 'react';
-import {PropTypes} from 'prop-types';
+import React from "react";
+import { PropTypes } from "prop-types";
 
-import styles from './styles.module.scss';
+import styles from "./styles.module.scss";
 
 function Headline(props) {
-  const {category, title, offset} = props;
+  const { category, title, offset } = props;
 
   return (
     <div className="row">
