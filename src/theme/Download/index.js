@@ -55,10 +55,9 @@ function Download() {
         <div className="row">
           <div className="col col--5 col--offset-1">
             <p>
-              The desktop distribution is recommended for Linux, Mac, and
-              Windows users. The ARM distribution includes only the daemon and
-              is recommended for resource-constrained devices like the Raspberry
-              Pi.
+              The desktop distribution is suggested for Linux, Mac, and Windows
+              users. The daemon is recommended for ARM devices like the
+              Raspberry Pi.
             </p>
 
             <Link
@@ -81,7 +80,7 @@ function Download() {
             </div>
           </div>
 
-          <div className="col col--6">
+          <div className="col col--5">
             {data && (
               <div className={styles.assets}>
                 {data.assets.map((asset, idx) => (
