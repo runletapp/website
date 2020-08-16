@@ -7,20 +7,21 @@ import { FiBook, FiEdit3, FiGithub } from "react-icons/fi";
 import Headline from "@theme/Headline";
 import styles from "./styles.module.scss";
 
+const size = 48;
 const data = [
   {
     href: "docs/faq",
-    icon: <FaQuestion size="48" />,
+    icon: <FaQuestion size={size} />,
     description: <>Frequently Asked Questions</>,
   },
   {
     href: "blog",
-    icon: <FiEdit3 size="48" />,
+    icon: <FiEdit3 size={size} />,
     description: <>Explore our blog for news and tips</>,
   },
   {
     href: "docs",
-    icon: <FiBook size="48" />,
+    icon: <FiBook size={size} />,
     title: <>Documentation</>,
     description: (
       <>Check our documentation to get your devices up and running in minutes</>
@@ -28,7 +29,7 @@ const data = [
   },
   {
     href: "https://github.com/runletapp/runlet",
-    icon: <FiGithub size="48" />,
+    icon: <FiGithub size={size} />,
     title: <>Contribute</>,
     description: (
       <>Help us improve by submitting bugs and feature requests on GitHub</>
