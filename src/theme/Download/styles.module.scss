@@ -1,3 +1,9 @@
+.download {
+  svg {
+    margin-right: 0.5rem;
+  }
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -50,8 +56,4 @@
       color: var(--ifm-color-primary-light);
     }
   }
-}
-
-svg {
-  margin-right: 0.5rem;
 }

@@ -95,6 +95,10 @@ module.exports = {
               href: "https://github.com/runletapp/runlet",
             },
             {
+              label: "Gitter",
+              href: "https://gitter.im/runletapp",
+            },
+            {
               label: "Twitter",
               href: "https://twitter.com/runletapp",
             },

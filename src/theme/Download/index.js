@@ -44,7 +44,7 @@ function Download() {
   const size = 36;
 
   return (
-    <section id="download">
+    <section id="download" className={styles.download}>
       <div className="container">
         <Headline
           category="Download"
