@@ -5,15 +5,9 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: transparent;
-  background: linear-gradient(
-    0deg,
-    transparent,
-    var(--ifm-background-surface-color)
-  );
 
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     bottom: 0;
