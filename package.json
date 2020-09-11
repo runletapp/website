@@ -21,7 +21,7 @@
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.32",
     "@mdx-js/react": "^1.6.16",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.1.9",
+    "docusaurus-plugin-sass": "^0.1.10",
     "filesize": "^6.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",

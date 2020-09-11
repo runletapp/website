@@ -4248,10 +4248,10 @@ docsearch.js@^2.6.3:
     to-factory "^1.0.0"
     zepto "^1.2.0"
 
-docusaurus-plugin-sass@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.1.9.tgz#dbc253b02b8463520d205e237cbb3e6e673bcbd4"
-  integrity sha512-wjLpcft+YX/G9Tg/7GdshM8+pk8cwZnUKdECcxnBibetsRTpRamRiDh4PWtG9B9E++fc0lkRMyua8eRzMqiu3A==
+docusaurus-plugin-sass@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.1.10.tgz#91a2c1b54addd304769c8899c45db5391c5b923c"
+  integrity sha512-PuisVfTCK+zY6vWfq9Y+VJ9TRJU7k6B2yUyAX7T7wSDTX+HhjRuU35W2nXgGUlfbNOTxKw6fEzvH3Am0MO3r5w==
   dependencies:
     node-sass "^4.13.1"
     sass-loader "^8.0.2"
