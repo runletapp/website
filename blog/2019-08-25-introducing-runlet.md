@@ -1,5 +1,5 @@
 ---
-id: introducing-runlet
+slug: introducing-runlet
 title: Introducing Runlet
 author: Vandré Leal Cândido
 author_title: Core Maintainer

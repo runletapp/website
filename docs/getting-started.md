@@ -2,6 +2,7 @@
 id: getting-started
 title: Getting Started
 sidebar_label: Getting Started
+slug: /
 ---
 
 ![GitHub release](https://img.shields.io/github/release/runletapp/runlet)

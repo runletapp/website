@@ -1,5 +1,5 @@
 ---
-id: monitoring-processes-on-raspberry-pi
+slug: monitoring-processes-on-raspberry-pi
 title: Monitoring processes on Raspberry PI remotely with Runlet and htop
 author: Vandré Leal Cândido
 author_title: Core Maintainer

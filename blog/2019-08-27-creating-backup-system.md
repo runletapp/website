@@ -1,5 +1,5 @@
 ---
-id: creating-backup-system
+slug: creating-backup-system
 title: Creating a backup system with Runlet
 author: Gustavo Sampaio
 author_title: Core Maintainer
