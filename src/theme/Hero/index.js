@@ -3,7 +3,9 @@ import clsx from "clsx";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Image from "@theme/IdealImage";
 
+import screenshot from "@site/static/img/pages/light/homepage-screenshot.png";
 import styles from "./styles.module.scss";
 
 function Hero() {
@@ -34,12 +36,7 @@ function Hero() {
         </div>
       </div>
 
-      <img
-        src={useBaseUrl("img/pages/light/homepage-screenshot.png")}
-        alt="Screenshot"
-        className={clsx("shadow-md", styles.image)}
-        loading="lazy"
-      />
+      <Image img={screenshot} className={clsx("shadow-md", styles.image)} />
     </header>
   );
 }
