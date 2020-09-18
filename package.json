@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "prettier": "2.1.1"
+    "prettier": "2.1.2"
   },
   "config": {
     "commitizen": {
