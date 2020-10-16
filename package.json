@@ -24,7 +24,7 @@
     "docusaurus-plugin-sass": "^0.1.11",
     "filesize": "^6.1.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.4",
+    "react": "^16.14.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.8.4",
     "react-icons": "^3.10.0",
