@@ -1,4 +1,4 @@
-name: Docusaurus Deployment (Main)
+name: Docusaurus Deployment
 
 on:
   push:
@@ -36,4 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.WEBSITE_ACCESS_TOKEN }}
           external_repository: runletapp/runletapp.github.io
-          publish_dir: ./website/build
+          publish_dir: ./build
