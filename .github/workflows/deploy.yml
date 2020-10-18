@@ -34,6 +34,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.WEBSITE_ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: runletapp/runletapp.github.io
           publish_dir: ./build
+          force_orphan: true
