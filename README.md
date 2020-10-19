@@ -35,7 +35,7 @@ This command starts a local development server and open up a browser window. Mos
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command generates static content into the `build` directory.
 
 ## Deployment
 
@@ -45,5 +45,5 @@ The website is automatically deployed to the branch `gh-pages` on repository `ru
 
 There are a couple of ways in which you can contribute to the website, for example:
 
-- [Submit bugs and feature requests](https://github.com/runletapp/website/issues), and help us verify as they are checked in
-- Review the [website](https://runletapp.github.io) and make pull requests for anything from typos to new content suggestion
+- [Submit bugs and feature requests](https://github.com/runletapp/website/issues), and help us verify as they are checked in.
+- Review the [website](https://runletapp.github.io) and make pull requests for anything from typos to new content suggestion.
