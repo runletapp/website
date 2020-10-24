@@ -15,7 +15,7 @@
     "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.65",
+    "@docusaurus/core": "^2.0.0-alpha.66",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.65",
     "@docusaurus/preset-classic": "^2.0.0-alpha.65",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.65",
