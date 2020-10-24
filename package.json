@@ -15,11 +15,11 @@
     "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.65",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.65",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.65",
-    "@docusaurus/theme-search-algolia": "^2.0.0-alpha.65",
-    "@mdx-js/react": "^1.6.18",
+    "@docusaurus/core": "^2.0.0-alpha.66",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.66",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.66",
+    "@docusaurus/theme-search-algolia": "^2.0.0-alpha.66",
+    "@mdx-js/react": "^1.6.19",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.11",
     "filesize": "^6.1.0",
@@ -28,7 +28,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.14.0",
     "react-icons": "^3.10.0",
-    "swr": "^0.3.5"
+    "swr": "^0.3.6"
   },
   "browserslist": {
     "production": [
