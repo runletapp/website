@@ -28,7 +28,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.14.0",
     "react-icons": "^3.10.0",
-    "swr": "^0.3.8"
+    "swr": "^0.3.9"
   },
   "browserslist": {
     "production": [
