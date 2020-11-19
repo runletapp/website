@@ -1239,7 +1239,7 @@
     webpack-merge "^4.2.2"
     webpackbar "^4.0.0"
 
-"@docusaurus/core@^2.0.0-alpha.68":
+"@docusaurus/core@2.0.0-alpha.68", "@docusaurus/core@^2.0.0-alpha.68":
   version "2.0.0-alpha.68"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-alpha.68.tgz#7773c43dfd5b92ee97e3221b0062ba17197bff88"
   integrity sha512-zh6zca9sAISK6sAJprOQMFmWZU3UVQLohcvO65KaueWoV5B0L1sxVUz4F/zcmVzbiNwCJzqK7QGT2zOD1BBY2w==
@@ -1520,7 +1520,7 @@
     react-router-dom "^5.1.2"
     react-toggle "^4.1.1"
 
-"@docusaurus/theme-search-algolia@2.0.0-alpha.66", "@docusaurus/theme-search-algolia@^2.0.0-alpha.66":
+"@docusaurus/theme-search-algolia@2.0.0-alpha.66":
   version "2.0.0-alpha.66"
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.66.tgz#a808c8618523f473c85c691ea62388688de5e32a"
   integrity sha512-5k/Fwt81Gyjv9vPE+gO8mraEHx5IqEmHLwqld5yXj7yix5XrxywkaanHqC0cFJG4MFUBgF6vNjJC8CtfLnT4Tw==
@@ -1533,6 +1533,21 @@
     algoliasearch-helper "^3.1.1"
     clsx "^1.1.1"
     eta "^1.1.1"
+    lodash "^4.17.19"
+
+"@docusaurus/theme-search-algolia@^2.0.0-alpha.68":
+  version "2.0.0-alpha.68"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.68.tgz#f4a039afe4a9b46f7812cd08b2e884c5ffcad6c6"
+  integrity sha512-RJ3ETR53gM31w27qwQVl7u5ZFHOOMTpJlC8m0rBNVjX07StADG78AHtak11O4m9jQRFxmCV7AUv6F3PxsfUdXQ==
+  dependencies:
+    "@docsearch/react" "^1.0.0-alpha.27"
+    "@docusaurus/core" "2.0.0-alpha.68"
+    "@docusaurus/utils" "2.0.0-alpha.68"
+    algoliasearch "^4.0.0"
+    algoliasearch-helper "^3.1.1"
+    clsx "^1.1.1"
+    eta "^1.11.0"
+    joi "^17.2.1"
     lodash "^4.17.19"
 
 "@docusaurus/types@2.0.0-alpha.66":
