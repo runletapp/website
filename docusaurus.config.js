@@ -4,6 +4,7 @@ module.exports = {
   url: "https://runletapp.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: 'warn',
   favicon: "img/favicon.ico",
   organizationName: "runletapp", // Usually your GitHub org/user name.
   projectName: "runletapp.github.io", // Usually your repo name.
