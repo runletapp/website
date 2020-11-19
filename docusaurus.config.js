@@ -34,6 +34,7 @@ module.exports = {
       logo: {
         alt: "Runlet Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo.svg",
       },
       items: [
         {
