@@ -4,12 +4,6 @@
   }
 }
 
-.button {
-  display: inline-flex;
-  align-items: center;
-  margin: 1rem 0 3rem;
-}
-
 .platforms {
   margin: 2rem 0;
   color: var(--ifm-color-primary-light);
@@ -56,4 +50,8 @@
       color: var(--ifm-color-primary-light);
     }
   }
+}
+
+.info {
+  margin-top: 1rem;
 }

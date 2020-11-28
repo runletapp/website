@@ -53,34 +53,7 @@ function Download() {
         />
 
         <div className="row">
-          <div className="col col--5 col--offset-1">
-            <p>
-              The desktop distribution is suggested for Linux, Mac, and Windows
-              users. The daemon is recommended for ARM devices like the
-              Raspberry Pi.
-            </p>
-
-            <Link
-              className={clsx(
-                "button button--primary button--lg",
-                styles.button
-              )}
-              href="https://github.com/runletapp/runlet/releases"
-            >
-              <FiGithub size={24} /> Release Notes
-            </Link>
-
-            <div className={styles.platforms}>
-              <h3>Supported Platforms</h3>
-              <div>
-                <DiApple size={size} />
-                <DiWindows size={size} />
-                <DiLinux size={size} />
-              </div>
-            </div>
-          </div>
-
-          <div className="col col--5">
+          <div className="col col--6 col--offset-1">
             {data && (
               <div className={styles.assets}>
                 {data.assets.map((asset, idx) => (
@@ -96,6 +69,22 @@ function Download() {
                 ))}
               </div>
             )}
+          </div>
+
+          <div className={clsx("col col--4", styles.info)}>
+            <p>
+              The desktop distribution is recommended for Linux, Mac, and
+              Windows users. The daemon is recommended for ARM devices like the
+              Raspberry Pi.
+            </p>
+            <div className={styles.platforms}>
+              <h3>Supported Platforms</h3>
+              <div>
+                <DiApple size={size} />
+                <DiWindows size={size} />
+                <DiLinux size={size} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

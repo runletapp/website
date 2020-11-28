@@ -15,9 +15,9 @@
     "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.68",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.68",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.68",
+    "@docusaurus/core": "^2.0.0-alpha.69",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.69",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.69",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.68",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
@@ -27,7 +27,7 @@
     "react": "^16.14.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.14.0",
-    "react-icons": "^3.10.0",
+    "react-icons": "^4.1.0",
     "swr": "^0.3.9"
   },
   "browserslist": {
@@ -44,11 +44,18 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "prettier": "2.2.0"
+    "husky": "^4.3.0",
+    "prettier": "2.2.0",
+    "pretty-quick": "^3.1.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
   }
 }
