@@ -19,7 +19,7 @@
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.69",
     "@docusaurus/preset-classic": "^2.0.0-alpha.69",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.68",
-    "@mdx-js/react": "^1.6.21",
+    "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.11",
     "filesize": "^6.1.0",
