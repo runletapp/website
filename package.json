@@ -12,13 +12,14 @@
     "commit": "git-cz",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts}\"",
     "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,ts}\"",
-    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\""
+    "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\"",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.69",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.69",
     "@docusaurus/preset-classic": "^2.0.0-alpha.69",
-    "@docusaurus/theme-search-algolia": "^2.0.0-alpha.68",
+    "@docusaurus/theme-search-algolia": "^2.0.0-alpha.69",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.11",
@@ -44,18 +45,13 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.3.5",
+    "husky": "^5.0.4",
     "prettier": "2.2.1",
     "pretty-quick": "^3.1.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
     }
   }
 }
