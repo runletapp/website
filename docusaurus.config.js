@@ -4,10 +4,10 @@ module.exports = {
   url: "https://runletapp.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "runletapp", // Usually your GitHub org/user name.
-  projectName: "runletapp.github.io", // Usually your repo name.
+  organizationName: "runletapp",
+  projectName: "runletapp.github.io",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -30,7 +30,7 @@ module.exports = {
     },
     image: "img/runlet.png",
     navbar: {
-      hideOnScroll: false,
+      hideOnScroll: true,
       title: "Runlet",
       logo: {
         alt: "Runlet Logo",
@@ -111,7 +111,7 @@ module.exports = {
     },
     googleAnalytics: {
       trackingID: "UA-132764481-1",
-      anonymizeIP: true, // Should IPs be anonymized?
+      anonymizeIP: true,
     },
     algolia: {
       apiKey: "09724729b4ec048fc1aa41a08cbcfa03",
@@ -124,7 +124,6 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/runletapp/website/edit/main/",
         },
