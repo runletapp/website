@@ -4226,13 +4226,13 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus-plugin-sass@^0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.1.11.tgz#59fca0ac439a92849294392e1d413810613ffb96"
-  integrity sha512-Lm3g5o4IQuABLzxLnvRVxffLQQQrua9bPK2niRULJko2/EnHDofxhKP0lDX7h+zSUvb3eVOcG4XkRfb5uPUdnw==
+docusaurus-plugin-sass@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.1.12.tgz#ca508e9879f09459465025d4ede3afc367433d22"
+  integrity sha512-7uz3USHKdxutTnHR2J2jfm+KtLG4tLmnMI+ek9NTA8sT2t6+H00ajv97E8um7bEdBtBT+1snk4uAGG+NGvIqcA==
   dependencies:
     node-sass "^4.13.1"
-    sass-loader "^10.0.2"
+    sass-loader "^10.1.1"
 
 dom-converter@^0.2:
   version "0.2.0"
@@ -10047,10 +10047,10 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^10.0.2:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.0.tgz#1727fcc0c32ab3eb197cda61d78adf4e9174a4b3"
-  integrity sha512-ZCKAlczLBbFd3aGAhowpYEy69Te3Z68cg8bnHHl6WnSCvnKpbM6pQrz957HWMa8LKVuhnD9uMplmMAHwGQtHeg==
+sass-loader@^10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
+  integrity sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
