@@ -1160,7 +1160,7 @@
     "@docsearch/css" "3.0.0-alpha.34"
     algoliasearch "^4.0.0"
 
-"@docusaurus/core@2.0.0-alpha.71", "@docusaurus/core@^2.0.0-alpha.70":
+"@docusaurus/core@2.0.0-alpha.71", "@docusaurus/core@^2.0.0-alpha.71":
   version "2.0.0-alpha.71"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-alpha.71.tgz#12a9c92a3def1d2112432fcda078eb8b632096fe"
   integrity sha512-/NgI/asRz69KZ11juSpOzITeOxgNH4Tuyti5xha0wz12MPgB76fPjefcgEURrWGYBW3lvVhY36jK1pPgdbI9Qg==
@@ -1375,7 +1375,7 @@
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.71"
 
-"@docusaurus/plugin-ideal-image@^2.0.0-alpha.70":
+"@docusaurus/plugin-ideal-image@^2.0.0-alpha.71":
   version "2.0.0-alpha.71"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.0.0-alpha.71.tgz#91fbca47f630f0ebae82aef0a7157897d1efeb43"
   integrity sha512-RnuDSkcyXaz5GeMCseXNwUtzchMW+DJSveENO8mTIUB2kv2X6nqm5+2H5DeWiFErHzhrGlBzBrDrBufgOw+dow==
@@ -1401,7 +1401,7 @@
     joi "^17.4.0"
     sitemap "^6.3.6"
 
-"@docusaurus/preset-classic@^2.0.0-alpha.70":
+"@docusaurus/preset-classic@^2.0.0-alpha.71":
   version "2.0.0-alpha.71"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-alpha.71.tgz#042f6a8bc8858a02c0becd2dc6442771567007c3"
   integrity sha512-NTAGdJv6aBA+yWg+zJF7apmwqfp6JG6ZrdD9NjprayHnIpRO/ejw3ClHpuEEnk1fKfJXtVt70XmcQIYakijPYw==
@@ -1468,7 +1468,7 @@
     "@docusaurus/plugin-content-pages" "2.0.0-alpha.71"
     "@docusaurus/types" "2.0.0-alpha.71"
 
-"@docusaurus/theme-search-algolia@2.0.0-alpha.71", "@docusaurus/theme-search-algolia@^2.0.0-alpha.70":
+"@docusaurus/theme-search-algolia@2.0.0-alpha.71", "@docusaurus/theme-search-algolia@^2.0.0-alpha.71":
   version "2.0.0-alpha.71"
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.71.tgz#70e7684ebea4ee33e770fb89497e2a15c5e3d915"
   integrity sha512-pHtuSvott+AdUTiLAu3VjjMNfPAoodTITd8xWiUFlCmED9oEu7aswM1YkwQMAWKguueJ8PdslKHqU1E9FK+70A==
@@ -10829,10 +10829,10 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swr@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-0.5.2.tgz#b7b32c3b10237ca0b4b167accfa7ce37dda356f8"
-  integrity sha512-uHCk7XmA8EGJOv9m2NRQLaiCo+JTsSdlSXc0dqyuLRKG3gzep0iOTwyz7XKL+3iC8ZyUjq+w6Kl/SneqIL1ncA==
+swr@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-0.5.3.tgz#7290a9a61329d930583ef365317e636b8dbaa8bb"
+  integrity sha512-RUE3RWn3jt9e4qLPat2A9vbHG/5N6konsc27xKjE65jFSiGv0P7HLD8IGvwAv6DRKktL7Od2UcayX0plKb2awg==
 
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
