@@ -16,7 +16,7 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.72",
+    "@docusaurus/core": "^2.0.0-alpha.73",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.72",
     "@docusaurus/preset-classic": "^2.0.0-alpha.72",
     "@docusaurus/theme-search-algolia": "^2.0.0-alpha.72",
