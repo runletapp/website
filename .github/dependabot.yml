@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: "@docusaurus/plugin-ideal-image"
+    versions:
+    - 2.0.0-alpha.71
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+    - 2.0.0-alpha.74
+  - dependency-name: "@docusaurus/core"
+    versions:
+    - 2.0.0-alpha.71
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+    - 2.0.0-alpha.74
+  - dependency-name: "@docusaurus/theme-search-algolia"
+    versions:
+    - 2.0.0-alpha.71
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+    - 2.0.0-alpha.74
+  - dependency-name: "@docusaurus/preset-classic"
+    versions:
+    - 2.0.0-alpha.71
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+    - 2.0.0-alpha.74
+  - dependency-name: filesize
+    versions:
+    - 6.3.0
