@@ -16,10 +16,10 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.4",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.4",
-    "@docusaurus/preset-classic": "^2.0.0-beta.4",
-    "@docusaurus/theme-search-algolia": "^2.0.0-beta.4",
+    "@docusaurus/core": "^2.0.0-beta.5",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.5",
+    "@docusaurus/preset-classic": "^2.0.0-beta.5",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.5",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.2.1",
