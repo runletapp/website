@@ -1416,10 +1416,10 @@
     postcss "^8.3.7"
     postcss-sort-media-queries "^4.1.0"
 
-"@docusaurus/lqip-loader@2.0.0-beta.9":
-  version "2.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@docusaurus/lqip-loader/-/lqip-loader-2.0.0-beta.9.tgz#8b3629e2a1f28c2171d416d2a4f261432bb7778e"
-  integrity sha512-oG/KWjqX+roJrwT9o32RXjyOS+L1I2HXpjHRlyNvAtw2VK2S1xK8o4sqGXNXxOIvAmRBRcvWBQ+BF45EMON8dg==
+"@docusaurus/lqip-loader@2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@docusaurus/lqip-loader/-/lqip-loader-2.0.0-beta.10.tgz#59d1b2b1fa244a81ea8e34a56ca9e144726cbfdc"
+  integrity sha512-Io+CbG/V4ejjyJM+FQ3+5tdyO7DooxtSz3oo/0HexRCHG0PHnOsIP5BDdgMLdkWwNCRuvnIAe9RK3HvjZTB5EA==
   dependencies:
     file-loader "^6.2.0"
     lodash "^4.17.20"
@@ -1542,15 +1542,13 @@
   dependencies:
     "@docusaurus/core" "2.0.0-beta.9"
 
-"@docusaurus/plugin-ideal-image@^2.0.0-beta.9":
-  version "2.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.0.0-beta.9.tgz#c0de30c611635798bfce1cabfce40eb5825d7e3d"
-  integrity sha512-VnfjBavOSwiP/1/RaDtr1o3ddu2dp6xncx75ptXSvX3lHtvGV8o6jafjp7lmsWAtot6UK9LXxGKbr1oiOj/ILA==
+"@docusaurus/plugin-ideal-image@^2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.0.0-beta.10.tgz#51995b779ab8c9f7652ddbee2f630cc42377fd04"
+  integrity sha512-jSqsaQMm3NN0+6Y5LwgfL60W3N9a9cgMrooM+dHNGzWWxIZ/BmOBqbYrP8pKh0XqMRMpP9dvPxtF0LmZlh2p2Q==
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.9"
-    "@docusaurus/lqip-loader" "2.0.0-beta.9"
-    "@docusaurus/responsive-loader" "1.4.0"
-    "@docusaurus/types" "2.0.0-beta.9"
+    "@docusaurus/lqip-loader" "2.0.0-beta.10"
+    "@docusaurus/responsive-loader" "1.5.0"
     "@endiliey/react-ideal-image" "^0.0.11"
     react-waypoint "^10.1.0"
     sharp "^0.29.1"
@@ -1595,10 +1593,10 @@
     "@types/react" "*"
     prop-types "^15.6.2"
 
-"@docusaurus/responsive-loader@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/responsive-loader/-/responsive-loader-1.4.0.tgz#dea284e15133570f5ef09be414881c65c42e43d9"
-  integrity sha512-qkVjSEUM4dVNmgOWkjbuRetZegOiCnzGPOzS1FPmxMrc9jCI70Rusx67EYdYPyAu47F2cvUf8PwX0o6AUzfNTQ==
+"@docusaurus/responsive-loader@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/responsive-loader/-/responsive-loader-1.5.0.tgz#653a62e08e2c4390eee81506897a2fa10dd9d6a7"
+  integrity sha512-Zg7JNB4hzJCdaWjiJevrAp1Dcejef2QIF0BPfOHbT+yR0KD5043L7PLDl2+r+oU3JTbe7H5xEv1LlXDU7mjdzA==
   dependencies:
     loader-utils "^2.0.0"
 
