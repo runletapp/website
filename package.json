@@ -16,10 +16,10 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.10",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.10",
-    "@docusaurus/preset-classic": "^2.0.0-beta.10",
-    "@docusaurus/theme-search-algolia": "^2.0.0-beta.10",
+    "@docusaurus/core": "^2.0.0-beta.13",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.13",
+    "@docusaurus/preset-classic": "^2.0.0-beta.13",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.13",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.2.1",
@@ -30,7 +30,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "swr": "^1.1.0"
+    "swr": "^1.1.1"
   },
   "browserslist": {
     "production": [
