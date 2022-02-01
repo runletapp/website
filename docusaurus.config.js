@@ -109,10 +109,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
-    googleAnalytics: {
-      trackingID: "UA-132764481-1",
-      anonymizeIP: true,
-    },
+
     algolia: {
       apiKey: "09724729b4ec048fc1aa41a08cbcfa03",
       indexName: "runlet",
@@ -133,6 +130,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-132764481-1",
+          anonymizeIP: true,
         },
       },
     ],
