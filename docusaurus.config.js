@@ -100,8 +100,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
     algolia: {
-      appId: "57UV1WGQ5Q",
-      apiKey: "be3d58e5001e0becb68cd83f0914980f",
+      appId: "3ZVCP2XW9U",
+      apiKey: "4064f9c9c7ecfec5005b52fe27a45b1f",
       indexName: "runlet",
     },
   },
