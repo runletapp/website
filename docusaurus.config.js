@@ -13,16 +13,6 @@ module.exports = {
       defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: "🌙",
-        darkIconStyle: {
-          marginLeft: "2px",
-        },
-        lightIcon: "☀️",
-        lightIconStyle: {
-          marginLeft: "1px",
-        },
-      },
     },
     prism: {
       theme: require("prism-react-renderer/themes/dracula"),
@@ -109,9 +99,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
-
     algolia: {
-      apiKey: "09724729b4ec048fc1aa41a08cbcfa03",
+      appId: "57UV1WGQ5Q",
+      apiKey: "be3d58e5001e0becb68cd83f0914980f",
       indexName: "runlet",
     },
   },
