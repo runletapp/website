@@ -101,7 +101,7 @@ module.exports = {
     },
     algolia: {
       appId: "3ZVCP2XW9U",
-      apiKey: "4064f9c9c7ecfec5005b52fe27a45b1f",
+      apiKey: "6ec7c50367c58c20382f547618208fe8",
       indexName: "runlet",
     },
   },
