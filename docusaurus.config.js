@@ -99,11 +99,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
     },
-    algolia: {
-      appId: "3ZVCP2XW9U",
-      apiKey: "6ec7c50367c58c20382f547618208fe8",
-      indexName: "runlet",
-    },
   },
   plugins: ["docusaurus-plugin-sass", "@docusaurus/plugin-ideal-image"],
   presets: [
