@@ -5,7 +5,12 @@ import Link from "@docusaurus/Link"
 
 import styles from "./styles.module.scss"
 
-const data = [
+interface Question {
+  title: string
+  description: ReactElement
+}
+
+const data: Question[] = [
   {
     title: "What is Runlet?",
     description: (
@@ -50,12 +55,7 @@ const data = [
   },
 ]
 
-interface QuestionProps {
-  title: string
-  description: ReactElement
-}
-
-const Question = ({ title, description }: QuestionProps) => {
+const Question = ({ title, description }: Question) => {
   return (
     <div className={styles.question}>
       <h3 className={styles.title}>{title}</h3>

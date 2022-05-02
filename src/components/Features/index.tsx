@@ -6,7 +6,12 @@ import Headline from "@site/src/components/Headline"
 
 import styles from "./styles.module.scss"
 
-const data = [
+interface Feature {
+  title: string
+  description: string
+}
+
+const data: Feature[] = [
   {
     title: "Activity Logs",
     description:
@@ -36,12 +41,7 @@ const data = [
   },
 ]
 
-interface FeatureProps {
-  title: string
-  description: string
-}
-
-const Feature = ({ title, description }: FeatureProps) => {
+const Feature = ({ title, description }: Feature) => {
   return (
     <div className={clsx("col col--4", styles.feature)}>
       <div className="card">
@@ -58,25 +58,21 @@ const Feature = ({ title, description }: FeatureProps) => {
 
 const Features = () => {
   return (
-    <>
-      {data?.length > 0 && (
-        <section id="features" className={styles.features}>
-          <div className="container">
-            <Headline
-              category="Features"
-              title="Manage your fleet of devices with ease"
-              offset={1}
-            />
+    <section id="features" className={styles.features}>
+      <div className="container">
+        <Headline
+          category="Features"
+          title="Manage your fleet of devices with ease"
+          offset={1}
+        />
 
-            <div className="row">
-              {data.map((props, idx) => (
-                <Feature key={idx} {...props} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-    </>
+        <div className="row">
+          {data.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
   )
 }
 
