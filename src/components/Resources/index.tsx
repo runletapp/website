@@ -9,8 +9,15 @@ import Headline from "@site/src/components/Headline"
 
 import styles from "./styles.module.scss"
 
+interface Resource {
+  href: string
+  icon: ReactNode
+  title?: string
+  description: string
+}
+
 const size = 48
-const data = [
+const data: Resource[] = [
   {
     href: "docs/faq",
     icon: <FaQuestion size={size} />,
@@ -37,14 +44,7 @@ const data = [
   },
 ]
 
-interface ResourceProps {
-  href: string
-  icon: ReactNode
-  title?: string
-  description: string
-}
-
-const Resource = ({ href, icon, title, description }: ResourceProps) => {
+const Resource = ({ href, icon, title, description }: Resource) => {
   return (
     <Link className={clsx("card", styles.card)} to={href}>
       <div className="card__header">
@@ -61,40 +61,36 @@ const Resource = ({ href, icon, title, description }: ResourceProps) => {
 
 const Resources = () => {
   return (
-    <>
-      {data?.length > 0 && (
-        <section id="resouces" className={styles.resources}>
-          <div className="container">
-            <Headline
-              category="Resources"
-              title="Browse our resources to get started with Runlet"
-              offset={1}
-            />
+    <section id="resouces" className={styles.resources}>
+      <div className="container">
+        <Headline
+          category="Resources"
+          title="Browse our resources to get started with Runlet"
+          offset={1}
+        />
 
-            <div className="row">
-              {data[0] && data[1] && (
-                <div className={clsx("col", styles.resource)}>
-                  <Resource {...data[0]} />
-                  <Resource {...data[1]} />
-                </div>
-              )}
-
-              {data[2] && (
-                <div className={clsx("col", styles.resource)}>
-                  <Resource {...data[2]} />
-                </div>
-              )}
-
-              {data[3] && (
-                <div className={clsx("col", styles.resource)}>
-                  <Resource {...data[3]} />
-                </div>
-              )}
+        <div className="row">
+          {data[0] && data[1] && (
+            <div className={clsx("col", styles.resource)}>
+              <Resource {...data[0]} />
+              <Resource {...data[1]} />
             </div>
-          </div>
-        </section>
-      )}
-    </>
+          )}
+
+          {data[2] && (
+            <div className={clsx("col", styles.resource)}>
+              <Resource {...data[2]} />
+            </div>
+          )}
+
+          {data[3] && (
+            <div className={clsx("col", styles.resource)}>
+              <Resource {...data[3]} />
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
   )
 }
 
