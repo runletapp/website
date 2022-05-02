@@ -3,12 +3,12 @@ import React from "react"
 import styles from "./styles.module.scss"
 
 interface HeadlineProps {
-  category: string
-  offset: number
-  title: string
+  category?: string
+  offset?: number
+  title?: string
 }
 
-const Headline = ({ category, title, offset = 0 }: HeadlineProps) => {
+const Headline = ({ category, offset = 0, title }: HeadlineProps) => {
   return (
     <div className="row">
       <div className={`col col--${12 - offset} col--offset-${offset}`}>
