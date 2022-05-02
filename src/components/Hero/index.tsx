@@ -14,6 +14,7 @@ import styles from "./styles.module.scss"
 const Hero = () => {
   const context = useDocusaurusContext()
   const { siteConfig } = context
+  const { tagline, title } = siteConfig
 
   return (
     <header id="hero" className={clsx("hero", styles.banner)}>
@@ -24,10 +25,8 @@ const Hero = () => {
           className={styles.logo}
         />
 
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className={clsx("hero__subtitle", styles.subtitle)}>
-          {siteConfig.tagline}
-        </p>
+        <h1 className="hero__title">{title}</h1>
+        <p className={clsx("hero__subtitle", styles.subtitle)}>{tagline}</p>
 
         <div className={styles.buttons}>
           <AnchorLink
