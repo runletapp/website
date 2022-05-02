@@ -11,7 +11,7 @@
   color: var(--ifm-color-primary-light);
 
   &:before {
-    content: '#';
+    content: "#";
     display: inline;
     margin-right: 0.25rem;
   }
@@ -38,7 +38,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  html[data-theme='dark'] & {
+  html[data-theme="dark"] & {
     background: -webkit-linear-gradient(
       var(--ifm-color-primary-lightest),
       var(--ifm-color-primary)

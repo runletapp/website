@@ -6,13 +6,14 @@ import { DiApple, DiLinux, DiWindows } from "react-icons/di"
 import { FiPackage } from "react-icons/fi"
 import useSWR from "swr"
 
-import Headline from "@theme/Headline"
+import Headline from "@site/src/components/Headline"
 
 import styles from "./styles.module.scss"
 
-const fetcher = (...args) => fetch(...args).then(res => res.json())
+// @ts-ignore
+const fetcher = (...args: any[]) => fetch(...args).then(res => res.json())
 
-function useLatestRelease() {
+const useLatestRelease = () => {
   const { data, error } = useSWR(
     `https://api.github.com/repos/runletapp/runlet/releases/latest`,
     fetcher
@@ -25,7 +26,7 @@ function useLatestRelease() {
   }
 }
 
-function icon(type) {
+const icon = (type: string) => {
   const size = 24
 
   switch (type) {
@@ -40,7 +41,7 @@ function icon(type) {
   }
 }
 
-function Download() {
+const Download = () => {
   const { data } = useLatestRelease()
   const size = 36
 

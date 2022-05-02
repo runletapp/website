@@ -2,17 +2,16 @@ import React, { useEffect, useState } from "react"
 
 import Highlight, { defaultProps } from "prism-react-renderer"
 
+import { useColorMode } from "@docusaurus/theme-common"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import useThemeContext from "@theme/hooks/useThemeContext"
 
 import styles from "./styles.module.scss"
 
-function CodeSnippet(props) {
-  const {
-    siteConfig: {
-      themeConfig: { prism = {} },
-    },
-  } = useDocusaurusContext()
+const CodeSnippet = (props: { language?: "javascript"; code: any }) => {
+  const { siteConfig } = useDocusaurusContext()
+
+  // @ts-ignore
+  const { theme, darkTheme } = siteConfig.themeConfig.prism
 
   const [mounted, setMounted] = useState(false)
   // The Prism theme on SSR is always the default theme but the site theme
@@ -26,10 +25,10 @@ function CodeSnippet(props) {
     setMounted(true)
   }, [])
 
-  const { isDarkTheme } = useThemeContext()
-  const lightModeTheme = prism.theme
-  const darkModeTheme = prism.darkTheme || lightModeTheme
-  const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme
+  const { colorMode, setColorMode } = useColorMode()
+  const lightModeTheme = theme
+  const darkModeTheme = darkTheme || lightModeTheme
+  const prismTheme = colorMode === "dark" ? darkModeTheme : lightModeTheme
 
   const { language = "javascript", code } = props
 
@@ -37,8 +36,8 @@ function CodeSnippet(props) {
     <Highlight
       {...defaultProps}
       code={code}
+      key={mounted.toString()}
       language={language}
-      key={mounted}
       theme={prismTheme}
     >
       {({ className, style, tokens, getLineProps, getTokenProps }) => (

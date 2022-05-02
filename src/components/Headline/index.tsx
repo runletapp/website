@@ -1,12 +1,14 @@
 import React from "react"
 
-import { PropTypes } from "prop-types"
-
 import styles from "./styles.module.scss"
 
-function Headline(props) {
-  const { category, title, offset } = props
+interface HeadlineProps {
+  category: string
+  offset: number
+  title: string
+}
 
+const Headline = ({ category, title, offset = 0 }: HeadlineProps) => {
   return (
     <div className="row">
       <div className={`col col--${12 - offset} col--offset-${offset}`}>
@@ -17,16 +19,6 @@ function Headline(props) {
       </div>
     </div>
   )
-}
-
-Headline.propTypes = {
-  category: PropTypes.string,
-  title: PropTypes.string,
-  offset: PropTypes.number,
-}
-
-Headline.defaultProps = {
-  offset: 0,
 }
 
 export default Headline

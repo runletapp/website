@@ -6,13 +6,14 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import useBaseUrl from "@docusaurus/useBaseUrl"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import screenshot from "@site/static/img/pages/light/homepage-screenshot.png"
+// @ts-ignore
 import Image from "@theme/IdealImage"
 
 import styles from "./styles.module.scss"
 
-function Hero() {
+const Hero = () => {
   const context = useDocusaurusContext()
-  const { siteConfig = {} } = context
+  const { siteConfig } = context
 
   return (
     <header id="hero" className={clsx("hero", styles.banner)}>

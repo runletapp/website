@@ -1,4 +1,5 @@
 import React from "react"
+import { ReactElement } from "react"
 
 import Link from "@docusaurus/Link"
 
@@ -6,7 +7,7 @@ import styles from "./styles.module.scss"
 
 const data = [
   {
-    title: <>What is Runlet?</>,
+    title: "What is Runlet?",
     description: (
       <>
         Runlet is a cloud-based job manager that offers device synchronization
@@ -16,7 +17,7 @@ const data = [
     ),
   },
   {
-    title: <>Why use Runlet?</>,
+    title: "Why use Runlet",
     description: (
       <>
         Runlet provides an easy to use interface to manage jobs across a fleet
@@ -27,7 +28,7 @@ const data = [
     ),
   },
   {
-    title: <>How is personal data handled?</>,
+    title: "How is personal data handled?",
     description: (
       <>
         We only collect necessary user information during registration (such as
@@ -39,7 +40,7 @@ const data = [
     ),
   },
   {
-    title: <>Is Runlet secure?</>,
+    title: "Is Runlet secure?",
     description: (
       <>
         Yes, all logs are encrypted by the host machine before submitted to our
@@ -49,7 +50,12 @@ const data = [
   },
 ]
 
-function Question({ title, description }) {
+interface QuestionProps {
+  title: string
+  description: ReactElement
+}
+
+const Question = ({ title, description }: QuestionProps) => {
   return (
     <div className={styles.question}>
       <h3 className={styles.title}>{title}</h3>
@@ -58,7 +64,7 @@ function Question({ title, description }) {
   )
 }
 
-function FAQ() {
+const FAQ = () => {
   return (
     <section id="faq" className={styles.faq}>
       <div className="container">

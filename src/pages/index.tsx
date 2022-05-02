@@ -1,18 +1,18 @@
 import React from "react"
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import Download from "@theme/Download"
-import FAQ from "@theme/FAQ"
-import Features from "@theme/Features"
-import Hero from "@theme/Hero"
+import Download from "@site/src/components/Download"
+import FAQ from "@site/src/components/FAQ"
+import Features from "@site/src/components/Features"
+import Hero from "@site/src/components/Hero"
+import Resources from "@site/src/components/Resources"
 import Layout from "@theme/Layout"
-import Resources from "@theme/Resources"
 
 import styles from "./styles.module.scss"
 
-function Home() {
+const Home = () => {
   const context = useDocusaurusContext()
-  const { siteConfig = {} } = context
+  const { siteConfig } = context
   const { tagline } = siteConfig
 
   return (
