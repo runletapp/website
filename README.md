@@ -6,7 +6,6 @@
 <p align="center">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Frunletapp.github.io">
     <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/runletapp/website/deploy">
-    <img alt="David" src="https://img.shields.io/david/runletapp/website">
     <a href="https://github.com/runletapp/website/blob/dev/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/runletapp/website"></a>
     <a href= "https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
 </p>

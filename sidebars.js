@@ -29,4 +29,4 @@ module.exports = {
       items: ["policies/terms", "policies/privacy"],
     },
   ],
-};
+}

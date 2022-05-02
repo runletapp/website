@@ -1,16 +1,19 @@
-import React from "react";
-import clsx from "clsx";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Image from "@theme/IdealImage";
+import React from "react"
 
-import screenshot from "@site/static/img/pages/light/homepage-screenshot.png";
-import styles from "./styles.module.scss";
+import clsx from "clsx"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
-function Hero() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+import useBaseUrl from "@docusaurus/useBaseUrl"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
+import screenshot from "@site/static/img/pages/light/homepage-screenshot.png"
+// @ts-ignore
+import Image from "@theme/IdealImage"
+
+import styles from "./styles.module.scss"
+
+const Hero = () => {
+  const context = useDocusaurusContext()
+  const { siteConfig } = context
 
   return (
     <header id="hero" className={clsx("hero", styles.banner)}>
@@ -38,7 +41,7 @@ function Hero() {
 
       <Image img={screenshot} className={clsx("shadow-md", styles.image)} />
     </header>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

@@ -1,47 +1,49 @@
-import React from "react";
-import clsx from "clsx";
-import filesize from "filesize";
-import useSWR from "swr";
-import Link from "@docusaurus/Link";
-import { FiGithub, FiPackage } from "react-icons/fi";
-import { DiApple, DiLinux, DiWindows } from "react-icons/di";
+import React from "react"
 
-import Headline from "@theme/Headline";
-import styles from "./styles.module.scss";
+import clsx from "clsx"
+import filesize from "filesize"
+import { DiApple, DiLinux, DiWindows } from "react-icons/di"
+import { FiPackage } from "react-icons/fi"
+import useSWR from "swr"
 
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+import Headline from "@site/src/components/Headline"
 
-function useLatestRelease() {
+import styles from "./styles.module.scss"
+
+// @ts-ignore
+const fetcher = (...args: any[]) => fetch(...args).then(res => res.json())
+
+const useLatestRelease = () => {
   const { data, error } = useSWR(
     `https://api.github.com/repos/runletapp/runlet/releases/latest`,
     fetcher
-  );
+  )
 
   return {
     data: data,
     isLoading: !error && !data,
     isError: error,
-  };
-}
-
-function icon(type) {
-  const size = 24;
-
-  switch (type) {
-    case "application/x-apple-diskimage":
-      return <DiApple size={size} />;
-    case "application/x-msdos-program":
-      return <DiWindows size={size} />;
-    case "application/x-debian-package":
-      return <DiLinux size={size} />;
-    default:
-      return <FiPackage size={size} />;
   }
 }
 
-function Download() {
-  const { data } = useLatestRelease();
-  const size = 36;
+const icon = (type: string) => {
+  const size = 24
+
+  switch (type) {
+    case "application/x-apple-diskimage":
+      return <DiApple size={size} />
+    case "application/x-msdos-program":
+      return <DiWindows size={size} />
+    case "application/x-debian-package":
+      return <DiLinux size={size} />
+    default:
+      return <FiPackage size={size} />
+  }
+}
+
+const Download = () => {
+  const { data } = useLatestRelease()
+  const size = 36
 
   return (
     <section id="download" className={styles.download}>
@@ -89,7 +91,7 @@ function Download() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Download;
+export default Download

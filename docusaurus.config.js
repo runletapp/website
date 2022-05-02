@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "Runlet",
   tagline: "A cloud-based job manager that integrates your devices",
   url: "https://runletapp.github.io",
@@ -9,6 +10,7 @@ module.exports = {
   organizationName: "runletapp",
   projectName: "runletapp.github.io",
   themeConfig: {
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
@@ -123,4 +125,6 @@ module.exports = {
       },
     ],
   ],
-};
+}
+
+module.exports = config
