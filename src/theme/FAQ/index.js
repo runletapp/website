@@ -1,7 +1,8 @@
-import React from "react";
-import Link from "@docusaurus/Link";
+import React from "react"
 
-import styles from "./styles.module.scss";
+import Link from "@docusaurus/Link"
+
+import styles from "./styles.module.scss"
 
 const data = [
   {
@@ -46,7 +47,7 @@ const data = [
       </>
     ),
   },
-];
+]
 
 function Question({ title, description }) {
   return (
@@ -54,7 +55,7 @@ function Question({ title, description }) {
       <h3 className={styles.title}>{title}</h3>
       <p>{description}</p>
     </div>
-  );
+  )
 }
 
 function FAQ() {
@@ -74,7 +75,7 @@ function FAQ() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default FAQ;
+export default FAQ

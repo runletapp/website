@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from "react";
-import Highlight, { defaultProps } from "prism-react-renderer";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useThemeContext from "@theme/hooks/useThemeContext";
+import React, { useEffect, useState } from "react"
 
-import styles from "./styles.module.scss";
+import Highlight, { defaultProps } from "prism-react-renderer"
+
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
+import useThemeContext from "@theme/hooks/useThemeContext"
+
+import styles from "./styles.module.scss"
 
 function CodeSnippet(props) {
   const {
     siteConfig: {
       themeConfig: { prism = {} },
     },
-  } = useDocusaurusContext();
+  } = useDocusaurusContext()
 
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false)
   // The Prism theme on SSR is always the default theme but the site theme
   // can be in a different mode. React hydration doesn't update DOM styles
   // that come from SSR. Hence force a re-render after mounting to apply the
@@ -21,15 +23,15 @@ function CodeSnippet(props) {
   // the flash will require changing the theming approach and is not worth it
   // at this point.
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
-  const { isDarkTheme } = useThemeContext();
-  const lightModeTheme = prism.theme;
-  const darkModeTheme = prism.darkTheme || lightModeTheme;
-  const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme;
+  const { isDarkTheme } = useThemeContext()
+  const lightModeTheme = prism.theme
+  const darkModeTheme = prism.darkTheme || lightModeTheme
+  const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme
 
-  const { language = "javascript", code } = props;
+  const { language = "javascript", code } = props
 
   return (
     <Highlight
@@ -51,7 +53,7 @@ function CodeSnippet(props) {
         </pre>
       )}
     </Highlight>
-  );
+  )
 }
 
-export default CodeSnippet;
+export default CodeSnippet

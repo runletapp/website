@@ -1,13 +1,15 @@
-import React from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
-import { FaQuestion } from "react-icons/fa";
-import { FiBook, FiEdit3, FiGithub } from "react-icons/fi";
+import React from "react"
 
-import Headline from "@theme/Headline";
-import styles from "./styles.module.scss";
+import clsx from "clsx"
+import { FaQuestion } from "react-icons/fa"
+import { FiBook, FiEdit3, FiGithub } from "react-icons/fi"
 
-const size = 48;
+import Link from "@docusaurus/Link"
+import Headline from "@theme/Headline"
+
+import styles from "./styles.module.scss"
+
+const size = 48
 const data = [
   {
     href: "docs/faq",
@@ -35,9 +37,9 @@ const data = [
       <>Help us improve by submitting bugs and feature requests on GitHub</>
     ),
   },
-];
+]
 
-export default Resources;
+export default Resources
 
 function Resource({ href, icon, title, description }) {
   return (
@@ -52,7 +54,7 @@ function Resource({ href, icon, title, description }) {
         </div>
       )}
     </Link>
-  );
+  )
 }
 
 function Resources() {
@@ -91,5 +93,5 @@ function Resources() {
         </section>
       )}
     </>
-  );
+  )
 }

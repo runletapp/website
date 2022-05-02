@@ -1,10 +1,11 @@
-import React from "react";
-import { PropTypes } from "prop-types";
+import React from "react"
 
-import styles from "./styles.module.scss";
+import { PropTypes } from "prop-types"
+
+import styles from "./styles.module.scss"
 
 function Headline(props) {
-  const { category, title, offset } = props;
+  const { category, title, offset } = props
 
   return (
     <div className="row">
@@ -15,17 +16,17 @@ function Headline(props) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 Headline.propTypes = {
   category: PropTypes.string,
   title: PropTypes.string,
   offset: PropTypes.number,
-};
+}
 
 Headline.defaultProps = {
   offset: 0,
-};
+}
 
-export default Headline;
+export default Headline

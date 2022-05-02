@@ -1,0 +1,9 @@
+{
+  "arrowParens": "avoid",
+  "semi": false,
+  "importOrder": ["^react$", "<THIRD_PARTY_MODULES>", "^@(.*)$", "^[./]"],
+  "importOrderCaseInsensitive": true,
+  "importOrderParserPlugins": ["jsx", "typescript"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

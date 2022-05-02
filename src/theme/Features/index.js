@@ -1,8 +1,10 @@
-import React from "react";
-import clsx from "clsx";
+import React from "react"
 
-import Headline from "@theme/Headline";
-import styles from "./styles.module.scss";
+import clsx from "clsx"
+
+import Headline from "@theme/Headline"
+
+import styles from "./styles.module.scss"
 
 const data = [
   {
@@ -42,7 +44,7 @@ const data = [
       </>
     ),
   },
-];
+]
 
 function Feature({ title, description }) {
   return (
@@ -56,7 +58,7 @@ function Feature({ title, description }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function Features() {
@@ -80,7 +82,7 @@ function Features() {
         </section>
       )}
     </>
-  );
+  )
 }
 
-export default Features;
+export default Features

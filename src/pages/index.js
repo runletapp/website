@@ -1,19 +1,19 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import React from "react"
 
-import FAQ from "@theme/FAQ";
-import Features from "@theme/Features";
-import Hero from "@theme/Hero";
-import Resources from "@theme/Resources";
-import Download from "@theme/Download";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
+import Download from "@theme/Download"
+import FAQ from "@theme/FAQ"
+import Features from "@theme/Features"
+import Hero from "@theme/Hero"
+import Layout from "@theme/Layout"
+import Resources from "@theme/Resources"
 
-import styles from "./styles.module.scss";
+import styles from "./styles.module.scss"
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
-  const { tagline } = siteConfig;
+  const context = useDocusaurusContext()
+  const { siteConfig = {} } = context
+  const { tagline } = siteConfig
 
   return (
     <Layout description={tagline}>
@@ -26,7 +26,7 @@ function Home() {
         <FAQ />
       </main>
     </Layout>
-  );
+  )
 }
 
-export default Home;
+export default Home
