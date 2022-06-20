@@ -20,7 +20,7 @@
     "@docusaurus/module-type-aliases": "2.0.0-beta.21",
     "@docusaurus/plugin-ideal-image": "2.0.0-beta.21",
     "@docusaurus/preset-classic": "2.0.0-beta.21",
-    "@mdx-js/react": "1.6.22",
+    "@mdx-js/react": "2.1.2",
     "clsx": "1.1.1",
     "docusaurus-plugin-sass": "0.2.2",
     "filesize": "9.0.8",
