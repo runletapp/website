@@ -4204,10 +4204,10 @@ file-loader@^6.2.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-filesize@10.0.2:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/filesize/-/filesize-10.0.2.tgz#d14c79d85d3a93d81522eb00c416f7a2d8f156d1"
-  integrity sha512-SOUAfVx6Myimq+YqkxbKpiRI4zB5v6wI7EKBrGxFtDcvalEffCyws+t7OeCUvMElkRNTK03XZ/3zU2AU8QnJkQ==
+filesize@10.0.5:
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/filesize/-/filesize-10.0.5.tgz#d77553eb00a525f4cc7983047d2197cda6fff321"
+  integrity sha512-qrzyt8gLh86nsyYiC3ibI5KyIYRCWg2yqIklYrWF4a0qNfekik4OQfn7AoPJG2hRrPMSlH6fET4VEITweZAzjA==
 
 filesize@^8.0.6:
   version "8.0.7"
