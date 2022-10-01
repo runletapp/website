@@ -1,7 +1,7 @@
 import React from "react"
 
 import clsx from "clsx"
-import filesize from "filesize"
+import { filesize } from "filesize"
 import { DiApple, DiLinux, DiWindows } from "react-icons/di"
 import { FiPackage } from "react-icons/fi"
 import useSWR from "swr"
