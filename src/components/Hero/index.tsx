@@ -28,14 +28,14 @@ const Hero = () => {
         <h1 className="hero__title">{title}</h1>
         <p className={clsx("hero__subtitle", styles.subtitle)}>{tagline}</p>
 
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <AnchorLink
             className={clsx("button button--primary button--lg", styles.button)}
             href="#download"
           >
             Download
           </AnchorLink>
-        </div>
+        </div> */}
       </div>
 
       <Image img={screenshot} className={clsx("shadow-md", styles.image)} />
